@@ -1,0 +1,286 @@
+{
+  "keys": "D:\\Codes\\DIYShop-BackEnd\\config\\config.default.js",
+  "mongoose": {
+    "client": {
+      "url": "D:\\Codes\\DIYShop-BackEnd\\config\\config.default.js",
+      "options": "D:\\Codes\\DIYShop-BackEnd\\config\\config.default.js",
+      "plugins": "D:\\Codes\\DIYShop-BackEnd\\config\\config.default.js"
+    },
+    "url": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "options": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "plugins": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "loadModel": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "app": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "agent": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "type": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "useSession": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "headerName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "queryName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "policy": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
+      "development": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js",
+      "file": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "files": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-multipart@2.10.2@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "mapping": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "name": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "cookies": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "proxy": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "version": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "description": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "main": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "url": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "keywords": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "author": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "license": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "bugs": {
+      "url": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "homepage": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-mongoose": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "HOME": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "rundir": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "notFound": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "sitefile": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "middlewares": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "httpClient": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "encoding": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "formLimit": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "textLimit": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "strict": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "depth": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "encoding": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "env": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "level": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "outputJSON": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "buffer": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "appLogName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "coreLogName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "agentLogName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "errorLogName": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "logging": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "serverTimeout": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "port": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "hostname": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\Codes\\DIYShop-BackEnd\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+}

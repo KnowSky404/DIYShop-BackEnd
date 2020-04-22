@@ -1,0 +1,317 @@
+2020-04-21 15:03:29,706 ERROR 7392 [-/127.0.0.1/-/1ms GET /getuser] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserController.getUser (D:\Codes\DIYShop-BackEnd\app\controller\user.js:10:53)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\Codes\DIYShop-BackEnd\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 7392
+hostname: LittleControl
+
+2020-04-21 15:25:04,958 ERROR 9944 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9944
+hostname: LittleControl
+
+2020-04-21 15:26:50,493 ERROR 9944 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9944
+hostname: LittleControl
+
+2020-04-21 15:28:22,336 ERROR 9944 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9944
+hostname: LittleControl
+
+2020-04-21 20:15:08,701 ERROR 11220 [-/127.0.0.1/-/2ms GET /getuser] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserController.getUser (D:\Codes\DIYShop-BackEnd\app\controller\user.js:10:53)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\Codes\DIYShop-BackEnd\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 11220
+hostname: LittleControl
+
+2020-04-21 20:17:54,478 ERROR 11984 [-/127.0.0.1/-/5ms GET /getuser] nodejs.TypeError: this.ctx.service.userInfo is not a function
+    at UserController.getUser (D:\Codes\DIYShop-BackEnd\app\controller\user.js:10:48)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\Codes\DIYShop-BackEnd\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 11984
+hostname: LittleControl
+
+2020-04-21 20:17:55,922 ERROR 11984 [-/127.0.0.1/-/0ms GET /getuser] nodejs.TypeError: this.ctx.service.userInfo is not a function
+    at UserController.getUser (D:\Codes\DIYShop-BackEnd\app\controller\user.js:10:48)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\Codes\DIYShop-BackEnd\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 11984
+hostname: LittleControl
+
+2020-04-21 20:21:27,278 ERROR 4236 [-/127.0.0.1/-/6ms GET /getuser] nodejs.ReferenceError: app is not defined
+    at UserService.userInfo (D:\Codes\DIYShop-BackEnd\app\service\user.js:7:26)
+    at UserController.getUser (D:\Codes\DIYShop-BackEnd\app\controller\user.js:10:54)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\Codes\DIYShop-BackEnd\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 4236
+hostname: LittleControl
+
+2020-04-21 20:28:19,841 ERROR 11324 [-/127.0.0.1/-/4ms GET /user/LittleControl] nodejs.OverwriteModelError: Cannot overwrite `user` model once compiled.
+    at new OverwriteModelError (D:\Codes\DIYShop-BackEnd\node_modules\_mongoose@5.9.10@mongoose\lib\error\overwriteModel.js:20:11)
+    at Mongoose.model (D:\Codes\DIYShop-BackEnd\node_modules\_mongoose@5.9.10@mongoose\lib\index.js:522:13)
+    at UserService.userInfo (D:\Codes\DIYShop-BackEnd\app\service\user.js:13:34)
+    at UserController.info (D:\Codes\DIYShop-BackEnd\app\controller\user.js:11:54)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Cannot overwrite `user` model once compiled."
+name: "OverwriteModelError"
+pid: 11324
+hostname: LittleControl
+
+2020-04-21 20:28:23,090 ERROR 11324 [-/127.0.0.1/-/2ms GET /user/LittleControl] nodejs.OverwriteModelError: Cannot overwrite `user` model once compiled.
+    at new OverwriteModelError (D:\Codes\DIYShop-BackEnd\node_modules\_mongoose@5.9.10@mongoose\lib\error\overwriteModel.js:20:11)
+    at Mongoose.model (D:\Codes\DIYShop-BackEnd\node_modules\_mongoose@5.9.10@mongoose\lib\index.js:522:13)
+    at UserService.userInfo (D:\Codes\DIYShop-BackEnd\app\service\user.js:13:34)
+    at UserController.info (D:\Codes\DIYShop-BackEnd\app\controller\user.js:11:54)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Cannot overwrite `user` model once compiled."
+name: "OverwriteModelError"
+pid: 11324
+hostname: LittleControl
+
+2020-04-21 20:29:00,967 ERROR 11324 [-/127.0.0.1/-/1ms GET /user/littlecontrol] nodejs.OverwriteModelError: Cannot overwrite `user` model once compiled.
+    at new OverwriteModelError (D:\Codes\DIYShop-BackEnd\node_modules\_mongoose@5.9.10@mongoose\lib\error\overwriteModel.js:20:11)
+    at Mongoose.model (D:\Codes\DIYShop-BackEnd\node_modules\_mongoose@5.9.10@mongoose\lib\index.js:522:13)
+    at UserService.userInfo (D:\Codes\DIYShop-BackEnd\app\service\user.js:13:34)
+    at UserController.info (D:\Codes\DIYShop-BackEnd\app\controller\user.js:11:54)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Cannot overwrite `user` model once compiled."
+name: "OverwriteModelError"
+pid: 11324
+hostname: LittleControl
+
+2020-04-21 20:31:08,053 ERROR 872 [-/127.0.0.1/-/2ms GET /user/littlecontrol] nodejs.OverwriteModelError: Cannot overwrite `user` model once compiled.
+    at new OverwriteModelError (D:\Codes\DIYShop-BackEnd\node_modules\_mongoose@5.9.10@mongoose\lib\error\overwriteModel.js:20:11)
+    at Mongoose.model (D:\Codes\DIYShop-BackEnd\node_modules\_mongoose@5.9.10@mongoose\lib\index.js:522:13)
+    at UserService.userInfo (D:\Codes\DIYShop-BackEnd\app\service\user.js:13:34)
+    at UserController.info (D:\Codes\DIYShop-BackEnd\app\controller\user.js:11:54)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+message: "Cannot overwrite `user` model once compiled."
+name: "OverwriteModelError"
+pid: 872
+hostname: LittleControl
+
+2020-04-22 08:30:22,782 ERROR 6624 [-/127.0.0.1/-/2ms GET /ip] nodejs.TypeError: this.ctx.service.user.ip is not a function
+    at UserController.ip (D:\Codes\DIYShop-BackEnd\app\controller\user.js:15:47)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\Codes\DIYShop-BackEnd\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 6624
+hostname: LittleControl
+
+2020-04-22 08:30:52,937 ERROR 4224 [-/127.0.0.1/-/8ms GET /ip] nodejs.TypeError: this.ctx.service.user.userIp is not a function
+    at UserController.ip (D:\Codes\DIYShop-BackEnd\app\controller\user.js:15:47)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\Codes\DIYShop-BackEnd\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 4224
+hostname: LittleControl
+
+2020-04-22 08:30:55,025 ERROR 4224 [-/127.0.0.1/-/0ms GET /ip] nodejs.TypeError: this.ctx.service.user.userIp is not a function
+    at UserController.ip (D:\Codes\DIYShop-BackEnd\app\controller\user.js:15:47)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Codes\DIYShop-BackEnd\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Codes\DIYShop-BackEnd\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (D:\Codes\DIYShop-BackEnd\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Codes\DIYShop-BackEnd\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 4224
+hostname: LittleControl
+
+2020-04-22 08:38:37,352 ERROR 11000 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at UserService.userIP (D:\Codes\DIYShop-BackEnd\app\service\user.js:26:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 11000
+hostname: LittleControl
+
+2020-04-22 08:39:03,883 ERROR 10688 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at UserService.userIP (D:\Codes\DIYShop-BackEnd\app\service\user.js:26:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 10688
+hostname: LittleControl
+
+2020-04-22 08:40:28,327 ERROR 6664 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6664
+hostname: LittleControl
+
+2020-04-22 08:40:30,237 ERROR 12756 nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at UserService.userIP (D:\Codes\DIYShop-BackEnd\app\service\user.js:26:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 12756
+hostname: LittleControl
+
+2020-04-22 15:49:01,033 ERROR 10148 [egg-mongoose] mongodb://127.0.0.1/diyshop disconnected

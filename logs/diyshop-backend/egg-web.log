@@ -1,0 +1,1442 @@
+2020-04-21 06:46:28,821 INFO 2768 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 06:46:28,847 INFO 2768 [egg-multipart] stream mode enable
+2020-04-21 06:46:29,036 INFO 2768 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 06:46:29,039 INFO 2768 [egg-security] use csrf middleware
+2020-04-21 06:46:29,042 INFO 2768 [egg-security] use methodnoallow middleware
+2020-04-21 06:46:29,043 INFO 2768 [egg-security] use noopen middleware
+2020-04-21 06:46:29,044 INFO 2768 [egg-security] use nosniff middleware
+2020-04-21 06:46:29,044 INFO 2768 [egg-security] use xssProtection middleware
+2020-04-21 06:46:29,044 INFO 2768 [egg-security] use xframe middleware
+2020-04-21 06:46:29,045 INFO 2768 [egg-security] use dta middleware
+2020-04-21 06:46:29,045 INFO 2768 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 06:46:29,054 INFO 2768 [egg:core] dump config after load, 5ms
+2020-04-21 06:46:29,065 INFO 2768 [egg-watcher:application] watcher start success
+2020-04-21 06:46:29,071 INFO 2768 [egg:core] dump config after ready, 5ms
+2020-04-21 15:03:03,855 INFO 7392 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:03:03,885 INFO 7392 [egg-multipart] stream mode enable
+2020-04-21 15:03:04,205 INFO 7392 [egg-mongoose] connecting mongodb://127.0.0.1:27017/diyshop
+2020-04-21 15:03:04,292 INFO 7392 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:03:04,296 INFO 7392 [egg-security] use csrf middleware
+2020-04-21 15:03:04,297 INFO 7392 [egg-security] use methodnoallow middleware
+2020-04-21 15:03:04,297 INFO 7392 [egg-security] use noopen middleware
+2020-04-21 15:03:04,298 INFO 7392 [egg-security] use nosniff middleware
+2020-04-21 15:03:04,299 INFO 7392 [egg-security] use xssProtection middleware
+2020-04-21 15:03:04,300 INFO 7392 [egg-security] use xframe middleware
+2020-04-21 15:03:04,300 INFO 7392 [egg-security] use dta middleware
+2020-04-21 15:03:04,300 INFO 7392 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:03:04,310 INFO 7392 [egg:core] dump config after load, 4ms
+2020-04-21 15:03:04,314 INFO 7392 [egg-mongoose] starting...
+2020-04-21 15:03:04,339 INFO 7392 [egg-mongoose] mongodb://127.0.0.1:27017/diyshop connected successfully
+2020-04-21 15:03:04,342 INFO 7392 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:03:04,345 INFO 7392 [egg-watcher:application] watcher start success
+2020-04-21 15:03:04,352 INFO 7392 [egg:core] dump config after ready, 5ms
+2020-04-21 15:18:30,860 INFO 13172 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:18:30,889 INFO 13172 [egg-multipart] stream mode enable
+2020-04-21 15:18:31,197 INFO 13172 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:18:31,268 INFO 13172 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:18:31,270 INFO 13172 [egg-security] use csrf middleware
+2020-04-21 15:18:31,271 INFO 13172 [egg-security] use methodnoallow middleware
+2020-04-21 15:18:31,272 INFO 13172 [egg-security] use noopen middleware
+2020-04-21 15:18:31,273 INFO 13172 [egg-security] use nosniff middleware
+2020-04-21 15:18:31,273 INFO 13172 [egg-security] use xssProtection middleware
+2020-04-21 15:18:31,273 INFO 13172 [egg-security] use xframe middleware
+2020-04-21 15:18:31,274 INFO 13172 [egg-security] use dta middleware
+2020-04-21 15:18:31,274 INFO 13172 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:18:31,282 INFO 13172 [egg:core] dump config after load, 4ms
+2020-04-21 15:18:31,286 INFO 13172 [egg-mongoose] starting...
+2020-04-21 15:18:31,323 INFO 13172 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:18:31,324 INFO 13172 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:18:31,326 INFO 13172 [egg-watcher:application] watcher start success
+2020-04-21 15:18:31,335 INFO 13172 [egg:core] dump config after ready, 7ms
+2020-04-21 15:19:41,382 INFO 9700 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:19:41,416 INFO 9700 [egg-multipart] stream mode enable
+2020-04-21 15:19:41,748 INFO 9700 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:19:41,822 INFO 9700 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:19:41,825 INFO 9700 [egg-security] use csrf middleware
+2020-04-21 15:19:41,826 INFO 9700 [egg-security] use methodnoallow middleware
+2020-04-21 15:19:41,826 INFO 9700 [egg-security] use noopen middleware
+2020-04-21 15:19:41,827 INFO 9700 [egg-security] use nosniff middleware
+2020-04-21 15:19:41,827 INFO 9700 [egg-security] use xssProtection middleware
+2020-04-21 15:19:41,828 INFO 9700 [egg-security] use xframe middleware
+2020-04-21 15:19:41,828 INFO 9700 [egg-security] use dta middleware
+2020-04-21 15:19:41,828 INFO 9700 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:19:41,837 INFO 9700 [egg:core] dump config after load, 5ms
+2020-04-21 15:19:41,843 INFO 9700 [egg-mongoose] starting...
+2020-04-21 15:19:41,883 INFO 9700 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:19:41,886 INFO 9700 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:19:41,889 INFO 9700 [egg-watcher:application] watcher start success
+2020-04-21 15:19:41,896 INFO 9700 [egg:core] dump config after ready, 5ms
+2020-04-21 15:20:52,514 INFO 2844 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:20:52,544 INFO 2844 [egg-multipart] stream mode enable
+2020-04-21 15:20:52,963 INFO 2844 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:20:53,040 INFO 2844 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:20:53,044 INFO 2844 [egg-security] use csrf middleware
+2020-04-21 15:20:53,045 INFO 2844 [egg-security] use methodnoallow middleware
+2020-04-21 15:20:53,045 INFO 2844 [egg-security] use noopen middleware
+2020-04-21 15:20:53,046 INFO 2844 [egg-security] use nosniff middleware
+2020-04-21 15:20:53,047 INFO 2844 [egg-security] use xssProtection middleware
+2020-04-21 15:20:53,047 INFO 2844 [egg-security] use xframe middleware
+2020-04-21 15:20:53,048 INFO 2844 [egg-security] use dta middleware
+2020-04-21 15:20:53,048 INFO 2844 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:20:53,058 INFO 2844 [egg:core] dump config after load, 6ms
+2020-04-21 15:20:53,062 INFO 2844 [egg-mongoose] starting...
+2020-04-21 15:20:53,105 INFO 2844 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:20:53,112 INFO 2844 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:20:53,116 INFO 2844 [egg-watcher:application] watcher start success
+2020-04-21 15:20:53,134 INFO 2844 [egg:core] dump config after ready, 7ms
+2020-04-21 15:23:57,375 INFO 4964 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:23:57,423 INFO 4964 [egg-multipart] stream mode enable
+2020-04-21 15:23:57,860 INFO 4964 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:23:57,940 INFO 4964 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:23:57,943 INFO 4964 [egg-security] use csrf middleware
+2020-04-21 15:23:57,945 INFO 4964 [egg-security] use methodnoallow middleware
+2020-04-21 15:23:57,946 INFO 4964 [egg-security] use noopen middleware
+2020-04-21 15:23:57,949 INFO 4964 [egg-security] use nosniff middleware
+2020-04-21 15:23:57,949 INFO 4964 [egg-security] use xssProtection middleware
+2020-04-21 15:23:57,950 INFO 4964 [egg-security] use xframe middleware
+2020-04-21 15:23:57,951 INFO 4964 [egg-security] use dta middleware
+2020-04-21 15:23:57,951 INFO 4964 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:23:57,960 INFO 4964 [egg:core] dump config after load, 4ms
+2020-04-21 15:23:57,968 INFO 4964 [egg-mongoose] starting...
+2020-04-21 15:23:58,036 INFO 4964 [egg-watcher:application] watcher start success
+2020-04-21 15:23:58,042 INFO 4964 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:23:58,043 INFO 4964 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:23:58,058 INFO 4964 [egg:core] dump config after ready, 8ms
+2020-04-21 15:24:48,995 INFO 11176 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:24:49,069 INFO 11176 [egg-multipart] stream mode enable
+2020-04-21 15:24:49,369 INFO 11176 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:24:49,448 INFO 11176 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:24:49,451 INFO 11176 [egg-security] use csrf middleware
+2020-04-21 15:24:49,452 INFO 11176 [egg-security] use methodnoallow middleware
+2020-04-21 15:24:49,453 INFO 11176 [egg-security] use noopen middleware
+2020-04-21 15:24:49,454 INFO 11176 [egg-security] use nosniff middleware
+2020-04-21 15:24:49,454 INFO 11176 [egg-security] use xssProtection middleware
+2020-04-21 15:24:49,454 INFO 11176 [egg-security] use xframe middleware
+2020-04-21 15:24:49,455 INFO 11176 [egg-security] use dta middleware
+2020-04-21 15:24:49,455 INFO 11176 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:24:49,463 INFO 11176 [egg:core] dump config after load, 4ms
+2020-04-21 15:24:49,468 INFO 11176 [egg-mongoose] starting...
+2020-04-21 15:24:49,504 INFO 11176 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:24:49,505 INFO 11176 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:24:49,507 INFO 11176 [egg-watcher:application] watcher start success
+2020-04-21 15:24:49,518 INFO 11176 [egg:core] dump config after ready, 6ms
+2020-04-21 15:25:29,848 INFO 4052 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:25:29,876 INFO 4052 [egg-multipart] stream mode enable
+2020-04-21 15:25:30,183 INFO 4052 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:25:30,251 INFO 4052 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:25:30,253 INFO 4052 [egg-security] use csrf middleware
+2020-04-21 15:25:30,254 INFO 4052 [egg-security] use methodnoallow middleware
+2020-04-21 15:25:30,255 INFO 4052 [egg-security] use noopen middleware
+2020-04-21 15:25:30,257 INFO 4052 [egg-security] use nosniff middleware
+2020-04-21 15:25:30,257 INFO 4052 [egg-security] use xssProtection middleware
+2020-04-21 15:25:30,258 INFO 4052 [egg-security] use xframe middleware
+2020-04-21 15:25:30,258 INFO 4052 [egg-security] use dta middleware
+2020-04-21 15:25:30,258 INFO 4052 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:25:30,266 INFO 4052 [egg:core] dump config after load, 4ms
+2020-04-21 15:25:30,271 INFO 4052 [egg-mongoose] starting...
+2020-04-21 15:25:30,311 INFO 4052 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:25:30,312 INFO 4052 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:25:30,314 INFO 4052 [egg-watcher:application] watcher start success
+2020-04-21 15:25:30,322 INFO 4052 [egg:core] dump config after ready, 6ms
+2020-04-21 15:26:41,407 INFO 10728 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:26:41,443 INFO 10728 [egg-multipart] stream mode enable
+2020-04-21 15:26:41,753 INFO 10728 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:26:41,828 INFO 10728 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:26:41,830 INFO 10728 [egg-security] use csrf middleware
+2020-04-21 15:26:41,831 INFO 10728 [egg-security] use methodnoallow middleware
+2020-04-21 15:26:41,832 INFO 10728 [egg-security] use noopen middleware
+2020-04-21 15:26:41,833 INFO 10728 [egg-security] use nosniff middleware
+2020-04-21 15:26:41,833 INFO 10728 [egg-security] use xssProtection middleware
+2020-04-21 15:26:41,834 INFO 10728 [egg-security] use xframe middleware
+2020-04-21 15:26:41,834 INFO 10728 [egg-security] use dta middleware
+2020-04-21 15:26:41,834 INFO 10728 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:26:41,844 INFO 10728 [egg:core] dump config after load, 4ms
+2020-04-21 15:26:41,849 INFO 10728 [egg-mongoose] starting...
+2020-04-21 15:26:41,890 INFO 10728 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:26:41,891 INFO 10728 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:26:41,893 INFO 10728 [egg-watcher:application] watcher start success
+2020-04-21 15:26:41,904 INFO 10728 [egg:core] dump config after ready, 7ms
+2020-04-21 15:27:05,250 INFO 2612 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:27:05,278 INFO 2612 [egg-multipart] stream mode enable
+2020-04-21 15:27:05,600 INFO 2612 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:27:05,672 INFO 2612 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:27:05,675 INFO 2612 [egg-security] use csrf middleware
+2020-04-21 15:27:05,675 INFO 2612 [egg-security] use methodnoallow middleware
+2020-04-21 15:27:05,676 INFO 2612 [egg-security] use noopen middleware
+2020-04-21 15:27:05,677 INFO 2612 [egg-security] use nosniff middleware
+2020-04-21 15:27:05,677 INFO 2612 [egg-security] use xssProtection middleware
+2020-04-21 15:27:05,678 INFO 2612 [egg-security] use xframe middleware
+2020-04-21 15:27:05,678 INFO 2612 [egg-security] use dta middleware
+2020-04-21 15:27:05,678 INFO 2612 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:27:05,688 INFO 2612 [egg:core] dump config after load, 4ms
+2020-04-21 15:27:05,693 INFO 2612 [egg-mongoose] starting...
+2020-04-21 15:27:05,731 INFO 2612 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:27:05,733 INFO 2612 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:27:05,734 INFO 2612 [egg-watcher:application] watcher start success
+2020-04-21 15:27:05,743 INFO 2612 [egg:core] dump config after ready, 7ms
+2020-04-21 15:28:20,355 INFO 2712 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:28:20,384 INFO 2712 [egg-multipart] stream mode enable
+2020-04-21 15:28:20,721 INFO 2712 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:28:20,830 INFO 2712 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:28:20,836 INFO 2712 [egg-security] use csrf middleware
+2020-04-21 15:28:20,838 INFO 2712 [egg-security] use methodnoallow middleware
+2020-04-21 15:28:20,840 INFO 2712 [egg-security] use noopen middleware
+2020-04-21 15:28:20,842 INFO 2712 [egg-security] use nosniff middleware
+2020-04-21 15:28:20,843 INFO 2712 [egg-security] use xssProtection middleware
+2020-04-21 15:28:20,844 INFO 2712 [egg-security] use xframe middleware
+2020-04-21 15:28:20,845 INFO 2712 [egg-security] use dta middleware
+2020-04-21 15:28:20,845 INFO 2712 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:28:20,859 INFO 2712 [egg:core] dump config after load, 6ms
+2020-04-21 15:28:20,866 INFO 2712 [egg-mongoose] starting...
+2020-04-21 15:28:20,932 INFO 2712 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:28:20,937 INFO 2712 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:28:20,940 INFO 2712 [egg-watcher:application] watcher start success
+2020-04-21 15:28:20,954 INFO 2712 [egg:core] dump config after ready, 12ms
+2020-04-21 15:28:21,905 INFO 11424 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:28:21,947 INFO 11424 [egg-multipart] stream mode enable
+2020-04-21 15:28:22,264 INFO 11424 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:28:22,377 INFO 11424 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:28:22,383 INFO 11424 [egg-security] use csrf middleware
+2020-04-21 15:28:22,384 INFO 11424 [egg-security] use methodnoallow middleware
+2020-04-21 15:28:22,385 INFO 11424 [egg-security] use noopen middleware
+2020-04-21 15:28:22,386 INFO 11424 [egg-security] use nosniff middleware
+2020-04-21 15:28:22,386 INFO 11424 [egg-security] use xssProtection middleware
+2020-04-21 15:28:22,387 INFO 11424 [egg-security] use xframe middleware
+2020-04-21 15:28:22,387 INFO 11424 [egg-security] use dta middleware
+2020-04-21 15:28:22,387 INFO 11424 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:28:22,400 INFO 11424 [egg:core] dump config after load, 5ms
+2020-04-21 15:28:22,409 INFO 11424 [egg-mongoose] starting...
+2020-04-21 15:28:22,475 INFO 11424 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:28:22,480 INFO 11424 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:28:22,482 INFO 11424 [egg-watcher:application] watcher start success
+2020-04-21 15:28:22,491 INFO 11424 [egg:core] dump config after ready, 6ms
+2020-04-21 15:29:08,167 INFO 2976 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:29:08,199 INFO 2976 [egg-multipart] stream mode enable
+2020-04-21 15:29:08,644 INFO 2976 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:29:08,721 INFO 2976 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:29:08,725 INFO 2976 [egg-security] use csrf middleware
+2020-04-21 15:29:08,726 INFO 2976 [egg-security] use methodnoallow middleware
+2020-04-21 15:29:08,726 INFO 2976 [egg-security] use noopen middleware
+2020-04-21 15:29:08,728 INFO 2976 [egg-security] use nosniff middleware
+2020-04-21 15:29:08,729 INFO 2976 [egg-security] use xssProtection middleware
+2020-04-21 15:29:08,729 INFO 2976 [egg-security] use xframe middleware
+2020-04-21 15:29:08,730 INFO 2976 [egg-security] use dta middleware
+2020-04-21 15:29:08,730 INFO 2976 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:29:08,738 INFO 2976 [egg:core] dump config after load, 3ms
+2020-04-21 15:29:08,743 INFO 2976 [egg-mongoose] starting...
+2020-04-21 15:29:08,792 INFO 2976 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:29:08,802 INFO 2976 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:29:08,804 INFO 2976 [egg-watcher:application] watcher start success
+2020-04-21 15:29:08,817 INFO 2976 [egg:core] dump config after ready, 6ms
+2020-04-21 15:31:28,348 INFO 13068 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:31:28,378 INFO 13068 [egg-multipart] stream mode enable
+2020-04-21 15:31:28,743 INFO 13068 [egg-mongoose] connecting mongodb://127.0.0.1/example
+2020-04-21 15:31:28,830 INFO 13068 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:31:28,832 INFO 13068 [egg-security] use csrf middleware
+2020-04-21 15:31:28,833 INFO 13068 [egg-security] use methodnoallow middleware
+2020-04-21 15:31:28,834 INFO 13068 [egg-security] use noopen middleware
+2020-04-21 15:31:28,836 INFO 13068 [egg-security] use nosniff middleware
+2020-04-21 15:31:28,837 INFO 13068 [egg-security] use xssProtection middleware
+2020-04-21 15:31:28,838 INFO 13068 [egg-security] use xframe middleware
+2020-04-21 15:31:28,838 INFO 13068 [egg-security] use dta middleware
+2020-04-21 15:31:28,838 INFO 13068 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:31:28,847 INFO 13068 [egg:core] dump config after load, 4ms
+2020-04-21 15:31:28,853 INFO 13068 [egg-mongoose] starting...
+2020-04-21 15:31:28,905 INFO 13068 [egg-mongoose] mongodb://127.0.0.1/example connected successfully
+2020-04-21 15:31:28,910 INFO 13068 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:31:28,914 INFO 13068 [egg-watcher:application] watcher start success
+2020-04-21 15:31:28,929 INFO 13068 [egg:core] dump config after ready, 6ms
+2020-04-21 15:32:32,581 INFO 7724 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:32:32,609 INFO 7724 [egg-multipart] stream mode enable
+2020-04-21 15:32:33,030 INFO 7724 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 15:32:33,100 INFO 7724 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:32:33,104 INFO 7724 [egg-security] use csrf middleware
+2020-04-21 15:32:33,105 INFO 7724 [egg-security] use methodnoallow middleware
+2020-04-21 15:32:33,105 INFO 7724 [egg-security] use noopen middleware
+2020-04-21 15:32:33,106 INFO 7724 [egg-security] use nosniff middleware
+2020-04-21 15:32:33,106 INFO 7724 [egg-security] use xssProtection middleware
+2020-04-21 15:32:33,107 INFO 7724 [egg-security] use xframe middleware
+2020-04-21 15:32:33,108 INFO 7724 [egg-security] use dta middleware
+2020-04-21 15:32:33,108 INFO 7724 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:32:33,117 INFO 7724 [egg:core] dump config after load, 5ms
+2020-04-21 15:32:33,121 INFO 7724 [egg-mongoose] starting...
+2020-04-21 15:32:33,173 INFO 7724 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 15:32:33,179 INFO 7724 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:32:33,182 INFO 7724 [egg-watcher:application] watcher start success
+2020-04-21 15:32:33,193 INFO 7724 [egg:core] dump config after ready, 8ms
+2020-04-21 15:32:34,137 INFO 3316 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:32:34,172 INFO 3316 [egg-multipart] stream mode enable
+2020-04-21 15:32:34,492 INFO 3316 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 15:32:34,560 INFO 3316 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:32:34,563 INFO 3316 [egg-security] use csrf middleware
+2020-04-21 15:32:34,564 INFO 3316 [egg-security] use methodnoallow middleware
+2020-04-21 15:32:34,564 INFO 3316 [egg-security] use noopen middleware
+2020-04-21 15:32:34,565 INFO 3316 [egg-security] use nosniff middleware
+2020-04-21 15:32:34,566 INFO 3316 [egg-security] use xssProtection middleware
+2020-04-21 15:32:34,566 INFO 3316 [egg-security] use xframe middleware
+2020-04-21 15:32:34,566 INFO 3316 [egg-security] use dta middleware
+2020-04-21 15:32:34,566 INFO 3316 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:32:34,575 INFO 3316 [egg:core] dump config after load, 5ms
+2020-04-21 15:32:34,581 INFO 3316 [egg-mongoose] starting...
+2020-04-21 15:32:34,627 INFO 3316 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 15:32:34,632 INFO 3316 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:32:34,634 INFO 3316 [egg-watcher:application] watcher start success
+2020-04-21 15:32:34,644 INFO 3316 [egg:core] dump config after ready, 5ms
+2020-04-21 15:38:09,001 INFO 7952 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 15:38:09,031 INFO 7952 [egg-multipart] stream mode enable
+2020-04-21 15:38:09,337 INFO 7952 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 15:38:09,410 INFO 7952 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 15:38:09,416 INFO 7952 [egg-security] use csrf middleware
+2020-04-21 15:38:09,419 INFO 7952 [egg-security] use methodnoallow middleware
+2020-04-21 15:38:09,420 INFO 7952 [egg-security] use noopen middleware
+2020-04-21 15:38:09,421 INFO 7952 [egg-security] use nosniff middleware
+2020-04-21 15:38:09,422 INFO 7952 [egg-security] use xssProtection middleware
+2020-04-21 15:38:09,423 INFO 7952 [egg-security] use xframe middleware
+2020-04-21 15:38:09,423 INFO 7952 [egg-security] use dta middleware
+2020-04-21 15:38:09,423 INFO 7952 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 15:38:09,433 INFO 7952 [egg:core] dump config after load, 4ms
+2020-04-21 15:38:09,439 INFO 7952 [egg-mongoose] starting...
+2020-04-21 15:38:09,483 INFO 7952 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 15:38:09,485 INFO 7952 [egg-mongoose] instance[0] start successfully
+2020-04-21 15:38:09,490 INFO 7952 [egg-watcher:application] watcher start success
+2020-04-21 15:38:09,504 INFO 7952 [egg:core] dump config after ready, 9ms
+2020-04-21 20:14:37,298 INFO 7812 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:14:37,328 INFO 7812 [egg-multipart] stream mode enable
+2020-04-21 20:14:40,661 INFO 7812 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:14:41,018 INFO 7812 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:14:41,026 INFO 7812 [egg-security] use csrf middleware
+2020-04-21 20:14:41,028 INFO 7812 [egg-security] use methodnoallow middleware
+2020-04-21 20:14:41,030 INFO 7812 [egg-security] use noopen middleware
+2020-04-21 20:14:41,032 INFO 7812 [egg-security] use nosniff middleware
+2020-04-21 20:14:41,033 INFO 7812 [egg-security] use xssProtection middleware
+2020-04-21 20:14:41,035 INFO 7812 [egg-security] use xframe middleware
+2020-04-21 20:14:41,036 INFO 7812 [egg-security] use dta middleware
+2020-04-21 20:14:41,036 INFO 7812 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:14:41,051 INFO 7812 [egg:core] dump config after load, 4ms
+2020-04-21 20:14:41,056 INFO 7812 [egg-mongoose] starting...
+2020-04-21 20:14:41,092 INFO 7812 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:14:41,092 INFO 7812 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:14:41,094 INFO 7812 [egg-watcher:application] watcher start success
+2020-04-21 20:14:41,103 INFO 7812 [egg:core] dump config after ready, 7ms
+2020-04-21 20:14:42,144 INFO 11220 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:14:42,169 INFO 11220 [egg-multipart] stream mode enable
+2020-04-21 20:14:42,450 INFO 11220 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:14:42,525 INFO 11220 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:14:42,528 INFO 11220 [egg-security] use csrf middleware
+2020-04-21 20:14:42,529 INFO 11220 [egg-security] use methodnoallow middleware
+2020-04-21 20:14:42,529 INFO 11220 [egg-security] use noopen middleware
+2020-04-21 20:14:42,530 INFO 11220 [egg-security] use nosniff middleware
+2020-04-21 20:14:42,531 INFO 11220 [egg-security] use xssProtection middleware
+2020-04-21 20:14:42,531 INFO 11220 [egg-security] use xframe middleware
+2020-04-21 20:14:42,532 INFO 11220 [egg-security] use dta middleware
+2020-04-21 20:14:42,532 INFO 11220 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:14:42,541 INFO 11220 [egg:core] dump config after load, 5ms
+2020-04-21 20:14:42,545 INFO 11220 [egg-mongoose] starting...
+2020-04-21 20:14:42,577 INFO 11220 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:14:42,578 INFO 11220 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:14:42,580 INFO 11220 [egg-watcher:application] watcher start success
+2020-04-21 20:14:42,588 INFO 11220 [egg:core] dump config after ready, 5ms
+2020-04-21 20:17:40,388 INFO 1076 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:17:40,415 INFO 1076 [egg-multipart] stream mode enable
+2020-04-21 20:17:40,710 INFO 1076 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:17:40,776 INFO 1076 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:17:40,778 INFO 1076 [egg-security] use csrf middleware
+2020-04-21 20:17:40,779 INFO 1076 [egg-security] use methodnoallow middleware
+2020-04-21 20:17:40,780 INFO 1076 [egg-security] use noopen middleware
+2020-04-21 20:17:40,781 INFO 1076 [egg-security] use nosniff middleware
+2020-04-21 20:17:40,781 INFO 1076 [egg-security] use xssProtection middleware
+2020-04-21 20:17:40,782 INFO 1076 [egg-security] use xframe middleware
+2020-04-21 20:17:40,782 INFO 1076 [egg-security] use dta middleware
+2020-04-21 20:17:40,782 INFO 1076 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:17:40,790 INFO 1076 [egg:core] dump config after load, 4ms
+2020-04-21 20:17:40,795 INFO 1076 [egg-mongoose] starting...
+2020-04-21 20:17:40,820 INFO 1076 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:17:40,821 INFO 1076 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:17:40,823 INFO 1076 [egg-watcher:application] watcher start success
+2020-04-21 20:17:40,843 INFO 1076 [egg:core] dump config after ready, 18ms
+2020-04-21 20:17:46,962 INFO 7288 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:17:46,988 INFO 7288 [egg-multipart] stream mode enable
+2020-04-21 20:17:47,451 INFO 7288 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:17:47,525 INFO 7288 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:17:47,527 INFO 7288 [egg-security] use csrf middleware
+2020-04-21 20:17:47,528 INFO 7288 [egg-security] use methodnoallow middleware
+2020-04-21 20:17:47,529 INFO 7288 [egg-security] use noopen middleware
+2020-04-21 20:17:47,530 INFO 7288 [egg-security] use nosniff middleware
+2020-04-21 20:17:47,530 INFO 7288 [egg-security] use xssProtection middleware
+2020-04-21 20:17:47,531 INFO 7288 [egg-security] use xframe middleware
+2020-04-21 20:17:47,531 INFO 7288 [egg-security] use dta middleware
+2020-04-21 20:17:47,531 INFO 7288 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:17:47,540 INFO 7288 [egg:core] dump config after load, 5ms
+2020-04-21 20:17:47,544 INFO 7288 [egg-mongoose] starting...
+2020-04-21 20:17:47,571 INFO 7288 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:17:47,572 INFO 7288 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:17:47,575 INFO 7288 [egg-watcher:application] watcher start success
+2020-04-21 20:17:47,589 INFO 7288 [egg:core] dump config after ready, 12ms
+2020-04-21 20:17:48,563 INFO 11984 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:17:48,593 INFO 11984 [egg-multipart] stream mode enable
+2020-04-21 20:17:48,907 INFO 11984 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:17:48,993 INFO 11984 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:17:48,995 INFO 11984 [egg-security] use csrf middleware
+2020-04-21 20:17:48,996 INFO 11984 [egg-security] use methodnoallow middleware
+2020-04-21 20:17:48,997 INFO 11984 [egg-security] use noopen middleware
+2020-04-21 20:17:48,998 INFO 11984 [egg-security] use nosniff middleware
+2020-04-21 20:17:48,999 INFO 11984 [egg-security] use xssProtection middleware
+2020-04-21 20:17:48,999 INFO 11984 [egg-security] use xframe middleware
+2020-04-21 20:17:48,999 INFO 11984 [egg-security] use dta middleware
+2020-04-21 20:17:48,999 INFO 11984 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:17:49,009 INFO 11984 [egg:core] dump config after load, 5ms
+2020-04-21 20:17:49,013 INFO 11984 [egg-mongoose] starting...
+2020-04-21 20:17:49,042 INFO 11984 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:17:49,042 INFO 11984 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:17:49,044 INFO 11984 [egg-watcher:application] watcher start success
+2020-04-21 20:17:49,080 INFO 11984 [egg:core] dump config after ready, 34ms
+2020-04-21 20:18:28,861 INFO 13248 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:18:28,889 INFO 13248 [egg-multipart] stream mode enable
+2020-04-21 20:18:29,205 INFO 13248 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:18:29,274 INFO 13248 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:18:29,277 INFO 13248 [egg-security] use csrf middleware
+2020-04-21 20:18:29,278 INFO 13248 [egg-security] use methodnoallow middleware
+2020-04-21 20:18:29,278 INFO 13248 [egg-security] use noopen middleware
+2020-04-21 20:18:29,279 INFO 13248 [egg-security] use nosniff middleware
+2020-04-21 20:18:29,280 INFO 13248 [egg-security] use xssProtection middleware
+2020-04-21 20:18:29,280 INFO 13248 [egg-security] use xframe middleware
+2020-04-21 20:18:29,281 INFO 13248 [egg-security] use dta middleware
+2020-04-21 20:18:29,281 INFO 13248 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:18:29,290 INFO 13248 [egg:core] dump config after load, 5ms
+2020-04-21 20:18:29,295 INFO 13248 [egg-mongoose] starting...
+2020-04-21 20:18:29,326 INFO 13248 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:18:29,326 INFO 13248 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:18:29,328 INFO 13248 [egg-watcher:application] watcher start success
+2020-04-21 20:18:29,336 INFO 13248 [egg:core] dump config after ready, 6ms
+2020-04-21 20:18:46,501 INFO 12396 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:18:46,528 INFO 12396 [egg-multipart] stream mode enable
+2020-04-21 20:18:46,813 INFO 12396 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:18:46,891 INFO 12396 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:18:46,894 INFO 12396 [egg-security] use csrf middleware
+2020-04-21 20:18:46,895 INFO 12396 [egg-security] use methodnoallow middleware
+2020-04-21 20:18:46,896 INFO 12396 [egg-security] use noopen middleware
+2020-04-21 20:18:46,897 INFO 12396 [egg-security] use nosniff middleware
+2020-04-21 20:18:46,897 INFO 12396 [egg-security] use xssProtection middleware
+2020-04-21 20:18:46,897 INFO 12396 [egg-security] use xframe middleware
+2020-04-21 20:18:46,898 INFO 12396 [egg-security] use dta middleware
+2020-04-21 20:18:46,898 INFO 12396 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:18:46,907 INFO 12396 [egg:core] dump config after load, 4ms
+2020-04-21 20:18:46,912 INFO 12396 [egg-mongoose] starting...
+2020-04-21 20:18:46,954 INFO 12396 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:18:46,955 INFO 12396 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:18:46,956 INFO 12396 [egg-watcher:application] watcher start success
+2020-04-21 20:18:46,964 INFO 12396 [egg:core] dump config after ready, 6ms
+2020-04-21 20:20:46,111 INFO 11924 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:20:46,137 INFO 11924 [egg-multipart] stream mode enable
+2020-04-21 20:20:46,408 INFO 11924 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:20:46,482 INFO 11924 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:20:46,484 INFO 11924 [egg-security] use csrf middleware
+2020-04-21 20:20:46,485 INFO 11924 [egg-security] use methodnoallow middleware
+2020-04-21 20:20:46,485 INFO 11924 [egg-security] use noopen middleware
+2020-04-21 20:20:46,486 INFO 11924 [egg-security] use nosniff middleware
+2020-04-21 20:20:46,487 INFO 11924 [egg-security] use xssProtection middleware
+2020-04-21 20:20:46,487 INFO 11924 [egg-security] use xframe middleware
+2020-04-21 20:20:46,488 INFO 11924 [egg-security] use dta middleware
+2020-04-21 20:20:46,488 INFO 11924 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:20:46,495 INFO 11924 [egg:core] dump config after load, 4ms
+2020-04-21 20:20:46,500 INFO 11924 [egg-mongoose] starting...
+2020-04-21 20:20:46,530 INFO 11924 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:20:46,531 INFO 11924 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:20:46,533 INFO 11924 [egg-watcher:application] watcher start success
+2020-04-21 20:20:46,540 INFO 11924 [egg:core] dump config after ready, 6ms
+2020-04-21 20:21:21,840 INFO 12460 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:21:21,869 INFO 12460 [egg-multipart] stream mode enable
+2020-04-21 20:21:22,177 INFO 12460 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:21:22,251 INFO 12460 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:21:22,254 INFO 12460 [egg-security] use csrf middleware
+2020-04-21 20:21:22,255 INFO 12460 [egg-security] use methodnoallow middleware
+2020-04-21 20:21:22,255 INFO 12460 [egg-security] use noopen middleware
+2020-04-21 20:21:22,256 INFO 12460 [egg-security] use nosniff middleware
+2020-04-21 20:21:22,257 INFO 12460 [egg-security] use xssProtection middleware
+2020-04-21 20:21:22,257 INFO 12460 [egg-security] use xframe middleware
+2020-04-21 20:21:22,258 INFO 12460 [egg-security] use dta middleware
+2020-04-21 20:21:22,258 INFO 12460 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:21:22,267 INFO 12460 [egg:core] dump config after load, 5ms
+2020-04-21 20:21:22,272 INFO 12460 [egg-mongoose] starting...
+2020-04-21 20:21:22,299 INFO 12460 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:21:22,299 INFO 12460 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:21:22,303 INFO 12460 [egg-watcher:application] watcher start success
+2020-04-21 20:21:22,311 INFO 12460 [egg:core] dump config after ready, 5ms
+2020-04-21 20:21:23,251 INFO 4236 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:21:23,279 INFO 4236 [egg-multipart] stream mode enable
+2020-04-21 20:21:23,592 INFO 4236 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:21:23,663 INFO 4236 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:21:23,667 INFO 4236 [egg-security] use csrf middleware
+2020-04-21 20:21:23,668 INFO 4236 [egg-security] use methodnoallow middleware
+2020-04-21 20:21:23,668 INFO 4236 [egg-security] use noopen middleware
+2020-04-21 20:21:23,669 INFO 4236 [egg-security] use nosniff middleware
+2020-04-21 20:21:23,669 INFO 4236 [egg-security] use xssProtection middleware
+2020-04-21 20:21:23,670 INFO 4236 [egg-security] use xframe middleware
+2020-04-21 20:21:23,670 INFO 4236 [egg-security] use dta middleware
+2020-04-21 20:21:23,670 INFO 4236 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:21:23,678 INFO 4236 [egg:core] dump config after load, 4ms
+2020-04-21 20:21:23,684 INFO 4236 [egg-mongoose] starting...
+2020-04-21 20:21:23,706 INFO 4236 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:21:23,707 INFO 4236 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:21:23,710 INFO 4236 [egg-watcher:application] watcher start success
+2020-04-21 20:21:23,724 INFO 4236 [egg:core] dump config after ready, 7ms
+2020-04-21 20:22:11,883 INFO 7016 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:22:11,914 INFO 7016 [egg-multipart] stream mode enable
+2020-04-21 20:22:12,225 INFO 7016 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:22:12,292 INFO 7016 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:22:12,294 INFO 7016 [egg-security] use csrf middleware
+2020-04-21 20:22:12,295 INFO 7016 [egg-security] use methodnoallow middleware
+2020-04-21 20:22:12,295 INFO 7016 [egg-security] use noopen middleware
+2020-04-21 20:22:12,296 INFO 7016 [egg-security] use nosniff middleware
+2020-04-21 20:22:12,296 INFO 7016 [egg-security] use xssProtection middleware
+2020-04-21 20:22:12,297 INFO 7016 [egg-security] use xframe middleware
+2020-04-21 20:22:12,297 INFO 7016 [egg-security] use dta middleware
+2020-04-21 20:22:12,297 INFO 7016 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:22:12,305 INFO 7016 [egg:core] dump config after load, 4ms
+2020-04-21 20:22:12,309 INFO 7016 [egg-mongoose] starting...
+2020-04-21 20:22:12,337 INFO 7016 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:22:12,337 INFO 7016 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:22:12,339 INFO 7016 [egg-watcher:application] watcher start success
+2020-04-21 20:22:12,347 INFO 7016 [egg:core] dump config after ready, 6ms
+2020-04-21 20:22:28,034 INFO 5292 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:22:28,059 INFO 5292 [egg-multipart] stream mode enable
+2020-04-21 20:22:28,331 INFO 5292 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:22:28,395 INFO 5292 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:22:28,399 INFO 5292 [egg-security] use csrf middleware
+2020-04-21 20:22:28,400 INFO 5292 [egg-security] use methodnoallow middleware
+2020-04-21 20:22:28,400 INFO 5292 [egg-security] use noopen middleware
+2020-04-21 20:22:28,401 INFO 5292 [egg-security] use nosniff middleware
+2020-04-21 20:22:28,401 INFO 5292 [egg-security] use xssProtection middleware
+2020-04-21 20:22:28,402 INFO 5292 [egg-security] use xframe middleware
+2020-04-21 20:22:28,402 INFO 5292 [egg-security] use dta middleware
+2020-04-21 20:22:28,402 INFO 5292 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:22:28,410 INFO 5292 [egg:core] dump config after load, 4ms
+2020-04-21 20:22:28,419 INFO 5292 [egg-mongoose] starting...
+2020-04-21 20:22:28,452 INFO 5292 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:22:28,452 INFO 5292 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:22:28,454 INFO 5292 [egg-watcher:application] watcher start success
+2020-04-21 20:22:28,462 INFO 5292 [egg:core] dump config after ready, 6ms
+2020-04-21 20:22:29,262 INFO 5772 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:22:29,288 INFO 5772 [egg-multipart] stream mode enable
+2020-04-21 20:22:29,609 INFO 5772 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:22:29,679 INFO 5772 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:22:29,681 INFO 5772 [egg-security] use csrf middleware
+2020-04-21 20:22:29,682 INFO 5772 [egg-security] use methodnoallow middleware
+2020-04-21 20:22:29,683 INFO 5772 [egg-security] use noopen middleware
+2020-04-21 20:22:29,684 INFO 5772 [egg-security] use nosniff middleware
+2020-04-21 20:22:29,684 INFO 5772 [egg-security] use xssProtection middleware
+2020-04-21 20:22:29,684 INFO 5772 [egg-security] use xframe middleware
+2020-04-21 20:22:29,685 INFO 5772 [egg-security] use dta middleware
+2020-04-21 20:22:29,685 INFO 5772 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:22:29,693 INFO 5772 [egg:core] dump config after load, 4ms
+2020-04-21 20:22:29,698 INFO 5772 [egg-mongoose] starting...
+2020-04-21 20:22:29,730 INFO 5772 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:22:29,730 INFO 5772 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:22:29,732 INFO 5772 [egg-watcher:application] watcher start success
+2020-04-21 20:22:29,739 INFO 5772 [egg:core] dump config after ready, 5ms
+2020-04-21 20:22:30,687 INFO 10908 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:22:30,713 INFO 10908 [egg-multipart] stream mode enable
+2020-04-21 20:22:30,991 INFO 10908 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:22:31,060 INFO 10908 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:22:31,063 INFO 10908 [egg-security] use csrf middleware
+2020-04-21 20:22:31,064 INFO 10908 [egg-security] use methodnoallow middleware
+2020-04-21 20:22:31,064 INFO 10908 [egg-security] use noopen middleware
+2020-04-21 20:22:31,065 INFO 10908 [egg-security] use nosniff middleware
+2020-04-21 20:22:31,065 INFO 10908 [egg-security] use xssProtection middleware
+2020-04-21 20:22:31,066 INFO 10908 [egg-security] use xframe middleware
+2020-04-21 20:22:31,066 INFO 10908 [egg-security] use dta middleware
+2020-04-21 20:22:31,066 INFO 10908 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:22:31,074 INFO 10908 [egg:core] dump config after load, 4ms
+2020-04-21 20:22:31,078 INFO 10908 [egg-mongoose] starting...
+2020-04-21 20:22:31,104 INFO 10908 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:22:31,104 INFO 10908 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:22:31,107 INFO 10908 [egg-watcher:application] watcher start success
+2020-04-21 20:22:31,114 INFO 10908 [egg:core] dump config after ready, 5ms
+2020-04-21 20:24:53,424 INFO 11556 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:24:53,455 INFO 11556 [egg-multipart] stream mode enable
+2020-04-21 20:24:53,762 INFO 11556 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:24:53,838 INFO 11556 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:24:53,841 INFO 11556 [egg-security] use csrf middleware
+2020-04-21 20:24:53,842 INFO 11556 [egg-security] use methodnoallow middleware
+2020-04-21 20:24:53,842 INFO 11556 [egg-security] use noopen middleware
+2020-04-21 20:24:53,843 INFO 11556 [egg-security] use nosniff middleware
+2020-04-21 20:24:53,844 INFO 11556 [egg-security] use xssProtection middleware
+2020-04-21 20:24:53,844 INFO 11556 [egg-security] use xframe middleware
+2020-04-21 20:24:53,845 INFO 11556 [egg-security] use dta middleware
+2020-04-21 20:24:53,845 INFO 11556 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:24:53,856 INFO 11556 [egg:core] dump config after load, 4ms
+2020-04-21 20:24:53,861 INFO 11556 [egg-mongoose] starting...
+2020-04-21 20:24:53,895 INFO 11556 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:24:53,895 INFO 11556 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:24:53,900 INFO 11556 [egg-watcher:application] watcher start success
+2020-04-21 20:24:53,910 INFO 11556 [egg:core] dump config after ready, 7ms
+2020-04-21 20:24:54,904 INFO 2756 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:24:54,941 INFO 2756 [egg-multipart] stream mode enable
+2020-04-21 20:24:55,243 INFO 2756 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:24:55,314 INFO 2756 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:24:55,319 INFO 2756 [egg-security] use csrf middleware
+2020-04-21 20:24:55,320 INFO 2756 [egg-security] use methodnoallow middleware
+2020-04-21 20:24:55,320 INFO 2756 [egg-security] use noopen middleware
+2020-04-21 20:24:55,322 INFO 2756 [egg-security] use nosniff middleware
+2020-04-21 20:24:55,322 INFO 2756 [egg-security] use xssProtection middleware
+2020-04-21 20:24:55,323 INFO 2756 [egg-security] use xframe middleware
+2020-04-21 20:24:55,323 INFO 2756 [egg-security] use dta middleware
+2020-04-21 20:24:55,323 INFO 2756 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:24:55,335 INFO 2756 [egg:core] dump config after load, 8ms
+2020-04-21 20:24:55,339 INFO 2756 [egg-mongoose] starting...
+2020-04-21 20:24:55,375 INFO 2756 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:24:55,376 INFO 2756 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:24:55,378 INFO 2756 [egg-watcher:application] watcher start success
+2020-04-21 20:24:55,390 INFO 2756 [egg:core] dump config after ready, 10ms
+2020-04-21 20:25:50,052 INFO 11632 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:25:50,078 INFO 11632 [egg-multipart] stream mode enable
+2020-04-21 20:25:50,405 INFO 11632 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:25:50,496 INFO 11632 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:25:50,499 INFO 11632 [egg-security] use csrf middleware
+2020-04-21 20:25:50,500 INFO 11632 [egg-security] use methodnoallow middleware
+2020-04-21 20:25:50,501 INFO 11632 [egg-security] use noopen middleware
+2020-04-21 20:25:50,502 INFO 11632 [egg-security] use nosniff middleware
+2020-04-21 20:25:50,503 INFO 11632 [egg-security] use xssProtection middleware
+2020-04-21 20:25:50,503 INFO 11632 [egg-security] use xframe middleware
+2020-04-21 20:25:50,503 INFO 11632 [egg-security] use dta middleware
+2020-04-21 20:25:50,503 INFO 11632 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:25:50,513 INFO 11632 [egg:core] dump config after load, 6ms
+2020-04-21 20:25:50,518 INFO 11632 [egg-mongoose] starting...
+2020-04-21 20:25:50,546 INFO 11632 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:25:50,547 INFO 11632 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:25:50,549 INFO 11632 [egg-watcher:application] watcher start success
+2020-04-21 20:25:50,557 INFO 11632 [egg:core] dump config after ready, 6ms
+2020-04-21 20:26:40,985 INFO 8092 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:26:41,010 INFO 8092 [egg-multipart] stream mode enable
+2020-04-21 20:26:41,296 INFO 8092 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:26:41,362 INFO 8092 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:26:41,365 INFO 8092 [egg-security] use csrf middleware
+2020-04-21 20:26:41,366 INFO 8092 [egg-security] use methodnoallow middleware
+2020-04-21 20:26:41,366 INFO 8092 [egg-security] use noopen middleware
+2020-04-21 20:26:41,367 INFO 8092 [egg-security] use nosniff middleware
+2020-04-21 20:26:41,367 INFO 8092 [egg-security] use xssProtection middleware
+2020-04-21 20:26:41,368 INFO 8092 [egg-security] use xframe middleware
+2020-04-21 20:26:41,368 INFO 8092 [egg-security] use dta middleware
+2020-04-21 20:26:41,368 INFO 8092 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:26:41,377 INFO 8092 [egg:core] dump config after load, 4ms
+2020-04-21 20:26:41,381 INFO 8092 [egg-mongoose] starting...
+2020-04-21 20:26:41,407 INFO 8092 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:26:41,407 INFO 8092 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:26:41,409 INFO 8092 [egg-watcher:application] watcher start success
+2020-04-21 20:26:41,419 INFO 8092 [egg:core] dump config after ready, 7ms
+2020-04-21 20:26:49,196 INFO 10260 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:26:49,219 INFO 10260 [egg-multipart] stream mode enable
+2020-04-21 20:26:49,521 INFO 10260 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:26:49,594 INFO 10260 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:26:49,597 INFO 10260 [egg-security] use csrf middleware
+2020-04-21 20:26:49,598 INFO 10260 [egg-security] use methodnoallow middleware
+2020-04-21 20:26:49,599 INFO 10260 [egg-security] use noopen middleware
+2020-04-21 20:26:49,600 INFO 10260 [egg-security] use nosniff middleware
+2020-04-21 20:26:49,601 INFO 10260 [egg-security] use xssProtection middleware
+2020-04-21 20:26:49,601 INFO 10260 [egg-security] use xframe middleware
+2020-04-21 20:26:49,602 INFO 10260 [egg-security] use dta middleware
+2020-04-21 20:26:49,602 INFO 10260 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:26:49,610 INFO 10260 [egg:core] dump config after load, 4ms
+2020-04-21 20:26:49,615 INFO 10260 [egg-mongoose] starting...
+2020-04-21 20:26:49,638 INFO 10260 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:26:49,638 INFO 10260 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:26:49,641 INFO 10260 [egg-watcher:application] watcher start success
+2020-04-21 20:26:49,650 INFO 10260 [egg:core] dump config after ready, 8ms
+2020-04-21 20:27:26,595 INFO 3756 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:27:26,622 INFO 3756 [egg-multipart] stream mode enable
+2020-04-21 20:27:26,961 INFO 3756 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:27:27,043 INFO 3756 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:27:27,046 INFO 3756 [egg-security] use csrf middleware
+2020-04-21 20:27:27,048 INFO 3756 [egg-security] use methodnoallow middleware
+2020-04-21 20:27:27,049 INFO 3756 [egg-security] use noopen middleware
+2020-04-21 20:27:27,051 INFO 3756 [egg-security] use nosniff middleware
+2020-04-21 20:27:27,052 INFO 3756 [egg-security] use xssProtection middleware
+2020-04-21 20:27:27,052 INFO 3756 [egg-security] use xframe middleware
+2020-04-21 20:27:27,053 INFO 3756 [egg-security] use dta middleware
+2020-04-21 20:27:27,053 INFO 3756 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:27:27,061 INFO 3756 [egg:core] dump config after load, 4ms
+2020-04-21 20:27:27,068 INFO 3756 [egg-mongoose] starting...
+2020-04-21 20:27:27,104 INFO 3756 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:27:27,104 INFO 3756 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:27:27,106 INFO 3756 [egg-watcher:application] watcher start success
+2020-04-21 20:27:27,114 INFO 3756 [egg:core] dump config after ready, 6ms
+2020-04-21 20:28:03,478 INFO 11324 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:28:03,503 INFO 11324 [egg-multipart] stream mode enable
+2020-04-21 20:28:03,796 INFO 11324 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:28:03,868 INFO 11324 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:28:03,870 INFO 11324 [egg-security] use csrf middleware
+2020-04-21 20:28:03,871 INFO 11324 [egg-security] use methodnoallow middleware
+2020-04-21 20:28:03,872 INFO 11324 [egg-security] use noopen middleware
+2020-04-21 20:28:03,873 INFO 11324 [egg-security] use nosniff middleware
+2020-04-21 20:28:03,873 INFO 11324 [egg-security] use xssProtection middleware
+2020-04-21 20:28:03,874 INFO 11324 [egg-security] use xframe middleware
+2020-04-21 20:28:03,874 INFO 11324 [egg-security] use dta middleware
+2020-04-21 20:28:03,874 INFO 11324 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:28:03,882 INFO 11324 [egg:core] dump config after load, 4ms
+2020-04-21 20:28:03,888 INFO 11324 [egg-mongoose] starting...
+2020-04-21 20:28:03,923 INFO 11324 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:28:03,924 INFO 11324 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:28:03,929 INFO 11324 [egg-watcher:application] watcher start success
+2020-04-21 20:28:03,939 INFO 11324 [egg:core] dump config after ready, 7ms
+2020-04-21 20:29:37,283 INFO 9648 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:29:37,313 INFO 9648 [egg-multipart] stream mode enable
+2020-04-21 20:29:37,650 INFO 9648 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:29:37,722 INFO 9648 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:29:37,724 INFO 9648 [egg-security] use csrf middleware
+2020-04-21 20:29:37,726 INFO 9648 [egg-security] use methodnoallow middleware
+2020-04-21 20:29:37,726 INFO 9648 [egg-security] use noopen middleware
+2020-04-21 20:29:37,728 INFO 9648 [egg-security] use nosniff middleware
+2020-04-21 20:29:37,728 INFO 9648 [egg-security] use xssProtection middleware
+2020-04-21 20:29:37,729 INFO 9648 [egg-security] use xframe middleware
+2020-04-21 20:29:37,729 INFO 9648 [egg-security] use dta middleware
+2020-04-21 20:29:37,729 INFO 9648 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:29:37,739 INFO 9648 [egg:core] dump config after load, 5ms
+2020-04-21 20:29:37,743 INFO 9648 [egg-mongoose] starting...
+2020-04-21 20:29:37,774 INFO 9648 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:29:37,774 INFO 9648 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:29:37,776 INFO 9648 [egg-watcher:application] watcher start success
+2020-04-21 20:29:37,784 INFO 9648 [egg:core] dump config after ready, 6ms
+2020-04-21 20:30:05,289 INFO 13212 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:30:05,322 INFO 13212 [egg-multipart] stream mode enable
+2020-04-21 20:30:05,666 INFO 13212 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:30:05,739 INFO 13212 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:30:05,742 INFO 13212 [egg-security] use csrf middleware
+2020-04-21 20:30:05,744 INFO 13212 [egg-security] use methodnoallow middleware
+2020-04-21 20:30:05,745 INFO 13212 [egg-security] use noopen middleware
+2020-04-21 20:30:05,746 INFO 13212 [egg-security] use nosniff middleware
+2020-04-21 20:30:05,746 INFO 13212 [egg-security] use xssProtection middleware
+2020-04-21 20:30:05,747 INFO 13212 [egg-security] use xframe middleware
+2020-04-21 20:30:05,747 INFO 13212 [egg-security] use dta middleware
+2020-04-21 20:30:05,747 INFO 13212 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:30:05,755 INFO 13212 [egg:core] dump config after load, 4ms
+2020-04-21 20:30:05,760 INFO 13212 [egg-mongoose] starting...
+2020-04-21 20:30:05,786 INFO 13212 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:30:05,786 INFO 13212 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:30:05,788 INFO 13212 [egg-watcher:application] watcher start success
+2020-04-21 20:30:05,802 INFO 13212 [egg:core] dump config after ready, 8ms
+2020-04-21 20:30:24,934 INFO 9136 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:30:24,963 INFO 9136 [egg-multipart] stream mode enable
+2020-04-21 20:30:25,258 INFO 9136 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:30:25,337 INFO 9136 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:30:25,340 INFO 9136 [egg-security] use csrf middleware
+2020-04-21 20:30:25,341 INFO 9136 [egg-security] use methodnoallow middleware
+2020-04-21 20:30:25,342 INFO 9136 [egg-security] use noopen middleware
+2020-04-21 20:30:25,345 INFO 9136 [egg-security] use nosniff middleware
+2020-04-21 20:30:25,346 INFO 9136 [egg-security] use xssProtection middleware
+2020-04-21 20:30:25,347 INFO 9136 [egg-security] use xframe middleware
+2020-04-21 20:30:25,348 INFO 9136 [egg-security] use dta middleware
+2020-04-21 20:30:25,348 INFO 9136 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:30:25,362 INFO 9136 [egg:core] dump config after load, 6ms
+2020-04-21 20:30:25,366 INFO 9136 [egg-mongoose] starting...
+2020-04-21 20:30:25,405 INFO 9136 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:30:25,405 INFO 9136 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:30:25,414 INFO 9136 [egg-watcher:application] watcher start success
+2020-04-21 20:30:25,456 INFO 9136 [egg:core] dump config after ready, 33ms
+2020-04-21 20:30:33,114 INFO 6512 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:30:33,145 INFO 6512 [egg-multipart] stream mode enable
+2020-04-21 20:30:33,501 INFO 6512 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:30:33,575 INFO 6512 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:30:33,578 INFO 6512 [egg-security] use csrf middleware
+2020-04-21 20:30:33,579 INFO 6512 [egg-security] use methodnoallow middleware
+2020-04-21 20:30:33,579 INFO 6512 [egg-security] use noopen middleware
+2020-04-21 20:30:33,580 INFO 6512 [egg-security] use nosniff middleware
+2020-04-21 20:30:33,581 INFO 6512 [egg-security] use xssProtection middleware
+2020-04-21 20:30:33,581 INFO 6512 [egg-security] use xframe middleware
+2020-04-21 20:30:33,581 INFO 6512 [egg-security] use dta middleware
+2020-04-21 20:30:33,581 INFO 6512 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:30:33,590 INFO 6512 [egg:core] dump config after load, 4ms
+2020-04-21 20:30:33,595 INFO 6512 [egg-mongoose] starting...
+2020-04-21 20:30:33,622 INFO 6512 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:30:33,622 INFO 6512 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:30:33,625 INFO 6512 [egg-watcher:application] watcher start success
+2020-04-21 20:30:33,632 INFO 6512 [egg:core] dump config after ready, 5ms
+2020-04-21 20:30:53,775 INFO 872 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 20:30:53,804 INFO 872 [egg-multipart] stream mode enable
+2020-04-21 20:30:54,181 INFO 872 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 20:30:54,310 INFO 872 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 20:30:54,314 INFO 872 [egg-security] use csrf middleware
+2020-04-21 20:30:54,317 INFO 872 [egg-security] use methodnoallow middleware
+2020-04-21 20:30:54,318 INFO 872 [egg-security] use noopen middleware
+2020-04-21 20:30:54,320 INFO 872 [egg-security] use nosniff middleware
+2020-04-21 20:30:54,321 INFO 872 [egg-security] use xssProtection middleware
+2020-04-21 20:30:54,321 INFO 872 [egg-security] use xframe middleware
+2020-04-21 20:30:54,322 INFO 872 [egg-security] use dta middleware
+2020-04-21 20:30:54,322 INFO 872 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 20:30:54,330 INFO 872 [egg:core] dump config after load, 4ms
+2020-04-21 20:30:54,334 INFO 872 [egg-mongoose] starting...
+2020-04-21 20:30:54,359 INFO 872 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 20:30:54,360 INFO 872 [egg-mongoose] instance[0] start successfully
+2020-04-21 20:30:54,362 INFO 872 [egg-watcher:application] watcher start success
+2020-04-21 20:30:54,374 INFO 872 [egg:core] dump config after ready, 6ms
+2020-04-21 21:05:11,297 INFO 9300 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 21:05:11,329 INFO 9300 [egg-multipart] stream mode enable
+2020-04-21 21:05:11,738 INFO 9300 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 21:05:11,812 INFO 9300 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 21:05:11,815 INFO 9300 [egg-security] use csrf middleware
+2020-04-21 21:05:11,816 INFO 9300 [egg-security] use methodnoallow middleware
+2020-04-21 21:05:11,817 INFO 9300 [egg-security] use noopen middleware
+2020-04-21 21:05:11,817 INFO 9300 [egg-security] use nosniff middleware
+2020-04-21 21:05:11,818 INFO 9300 [egg-security] use xssProtection middleware
+2020-04-21 21:05:11,818 INFO 9300 [egg-security] use xframe middleware
+2020-04-21 21:05:11,819 INFO 9300 [egg-security] use dta middleware
+2020-04-21 21:05:11,819 INFO 9300 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 21:05:11,829 INFO 9300 [egg:core] dump config after load, 4ms
+2020-04-21 21:05:11,834 INFO 9300 [egg-mongoose] starting...
+2020-04-21 21:05:11,865 INFO 9300 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 21:05:11,865 INFO 9300 [egg-mongoose] instance[0] start successfully
+2020-04-21 21:05:11,867 INFO 9300 [egg-watcher:application] watcher start success
+2020-04-21 21:05:11,876 INFO 9300 [egg:core] dump config after ready, 7ms
+2020-04-21 21:05:12,740 INFO 9012 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 21:05:12,765 INFO 9012 [egg-multipart] stream mode enable
+2020-04-21 21:05:13,048 INFO 9012 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 21:05:13,113 INFO 9012 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 21:05:13,115 INFO 9012 [egg-security] use csrf middleware
+2020-04-21 21:05:13,116 INFO 9012 [egg-security] use methodnoallow middleware
+2020-04-21 21:05:13,117 INFO 9012 [egg-security] use noopen middleware
+2020-04-21 21:05:13,117 INFO 9012 [egg-security] use nosniff middleware
+2020-04-21 21:05:13,118 INFO 9012 [egg-security] use xssProtection middleware
+2020-04-21 21:05:13,118 INFO 9012 [egg-security] use xframe middleware
+2020-04-21 21:05:13,119 INFO 9012 [egg-security] use dta middleware
+2020-04-21 21:05:13,119 INFO 9012 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 21:05:13,126 INFO 9012 [egg:core] dump config after load, 4ms
+2020-04-21 21:05:13,131 INFO 9012 [egg-mongoose] starting...
+2020-04-21 21:05:13,158 INFO 9012 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 21:05:13,159 INFO 9012 [egg-mongoose] instance[0] start successfully
+2020-04-21 21:05:13,160 INFO 9012 [egg-watcher:application] watcher start success
+2020-04-21 21:05:13,168 INFO 9012 [egg:core] dump config after ready, 6ms
+2020-04-21 21:06:07,417 INFO 8968 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-21 21:06:07,453 INFO 8968 [egg-multipart] stream mode enable
+2020-04-21 21:06:07,774 INFO 8968 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-21 21:06:07,896 INFO 8968 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-21 21:06:07,899 INFO 8968 [egg-security] use csrf middleware
+2020-04-21 21:06:07,900 INFO 8968 [egg-security] use methodnoallow middleware
+2020-04-21 21:06:07,901 INFO 8968 [egg-security] use noopen middleware
+2020-04-21 21:06:07,902 INFO 8968 [egg-security] use nosniff middleware
+2020-04-21 21:06:07,903 INFO 8968 [egg-security] use xssProtection middleware
+2020-04-21 21:06:07,904 INFO 8968 [egg-security] use xframe middleware
+2020-04-21 21:06:07,904 INFO 8968 [egg-security] use dta middleware
+2020-04-21 21:06:07,904 INFO 8968 [egg-security] compose 7 middlewares into one security middleware
+2020-04-21 21:06:07,922 INFO 8968 [egg:core] dump config after load, 9ms
+2020-04-21 21:06:07,932 INFO 8968 [egg-mongoose] starting...
+2020-04-21 21:06:07,963 INFO 8968 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-21 21:06:07,963 INFO 8968 [egg-mongoose] instance[0] start successfully
+2020-04-21 21:06:07,965 INFO 8968 [egg-watcher:application] watcher start success
+2020-04-21 21:06:07,976 INFO 8968 [egg:core] dump config after ready, 9ms
+2020-04-22 08:29:00,142 INFO 12256 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:29:00,172 INFO 12256 [egg-multipart] stream mode enable
+2020-04-22 08:29:00,485 INFO 12256 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:29:00,566 INFO 12256 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:29:00,569 INFO 12256 [egg-security] use csrf middleware
+2020-04-22 08:29:00,571 INFO 12256 [egg-security] use methodnoallow middleware
+2020-04-22 08:29:00,571 INFO 12256 [egg-security] use noopen middleware
+2020-04-22 08:29:00,574 INFO 12256 [egg-security] use nosniff middleware
+2020-04-22 08:29:00,575 INFO 12256 [egg-security] use xssProtection middleware
+2020-04-22 08:29:00,575 INFO 12256 [egg-security] use xframe middleware
+2020-04-22 08:29:00,575 INFO 12256 [egg-security] use dta middleware
+2020-04-22 08:29:00,576 INFO 12256 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:29:00,587 INFO 12256 [egg:core] dump config after load, 7ms
+2020-04-22 08:29:00,591 INFO 12256 [egg-mongoose] starting...
+2020-04-22 08:29:00,619 INFO 12256 [egg-watcher:application] watcher start success
+2020-04-22 08:30:09,709 INFO 6624 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:30:09,738 INFO 6624 [egg-multipart] stream mode enable
+2020-04-22 08:30:10,067 INFO 6624 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:30:10,139 INFO 6624 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:30:10,141 INFO 6624 [egg-security] use csrf middleware
+2020-04-22 08:30:10,142 INFO 6624 [egg-security] use methodnoallow middleware
+2020-04-22 08:30:10,143 INFO 6624 [egg-security] use noopen middleware
+2020-04-22 08:30:10,144 INFO 6624 [egg-security] use nosniff middleware
+2020-04-22 08:30:10,144 INFO 6624 [egg-security] use xssProtection middleware
+2020-04-22 08:30:10,145 INFO 6624 [egg-security] use xframe middleware
+2020-04-22 08:30:10,145 INFO 6624 [egg-security] use dta middleware
+2020-04-22 08:30:10,145 INFO 6624 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:30:10,153 INFO 6624 [egg:core] dump config after load, 4ms
+2020-04-22 08:30:10,160 INFO 6624 [egg-mongoose] starting...
+2020-04-22 08:30:10,183 INFO 6624 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:30:10,184 INFO 6624 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:30:10,189 INFO 6624 [egg-watcher:application] watcher start success
+2020-04-22 08:30:10,199 INFO 6624 [egg:core] dump config after ready, 7ms
+2020-04-22 08:30:49,945 INFO 9152 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:30:49,972 INFO 9152 [egg-multipart] stream mode enable
+2020-04-22 08:30:50,284 INFO 9152 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:30:50,355 INFO 9152 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:30:50,358 INFO 9152 [egg-security] use csrf middleware
+2020-04-22 08:30:50,359 INFO 9152 [egg-security] use methodnoallow middleware
+2020-04-22 08:30:50,360 INFO 9152 [egg-security] use noopen middleware
+2020-04-22 08:30:50,361 INFO 9152 [egg-security] use nosniff middleware
+2020-04-22 08:30:50,362 INFO 9152 [egg-security] use xssProtection middleware
+2020-04-22 08:30:50,362 INFO 9152 [egg-security] use xframe middleware
+2020-04-22 08:30:50,363 INFO 9152 [egg-security] use dta middleware
+2020-04-22 08:30:50,363 INFO 9152 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:30:50,371 INFO 9152 [egg:core] dump config after load, 4ms
+2020-04-22 08:30:50,376 INFO 9152 [egg-mongoose] starting...
+2020-04-22 08:30:50,406 INFO 9152 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:30:50,406 INFO 9152 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:30:50,409 INFO 9152 [egg-watcher:application] watcher start success
+2020-04-22 08:30:50,418 INFO 9152 [egg:core] dump config after ready, 7ms
+2020-04-22 08:30:51,407 INFO 4224 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:30:51,449 INFO 4224 [egg-multipart] stream mode enable
+2020-04-22 08:30:51,850 INFO 4224 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:30:52,020 INFO 4224 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:30:52,022 INFO 4224 [egg-security] use csrf middleware
+2020-04-22 08:30:52,024 INFO 4224 [egg-security] use methodnoallow middleware
+2020-04-22 08:30:52,024 INFO 4224 [egg-security] use noopen middleware
+2020-04-22 08:30:52,025 INFO 4224 [egg-security] use nosniff middleware
+2020-04-22 08:30:52,025 INFO 4224 [egg-security] use xssProtection middleware
+2020-04-22 08:30:52,026 INFO 4224 [egg-security] use xframe middleware
+2020-04-22 08:30:52,026 INFO 4224 [egg-security] use dta middleware
+2020-04-22 08:30:52,026 INFO 4224 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:30:52,035 INFO 4224 [egg:core] dump config after load, 5ms
+2020-04-22 08:30:52,039 INFO 4224 [egg-mongoose] starting...
+2020-04-22 08:30:52,058 INFO 4224 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:30:52,059 INFO 4224 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:30:52,061 INFO 4224 [egg-watcher:application] watcher start success
+2020-04-22 08:30:52,076 INFO 4224 [egg:core] dump config after ready, 6ms
+2020-04-22 08:31:04,765 INFO 3868 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:31:04,798 INFO 3868 [egg-multipart] stream mode enable
+2020-04-22 08:31:05,299 INFO 3868 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:31:05,388 INFO 3868 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:31:05,393 INFO 3868 [egg-security] use csrf middleware
+2020-04-22 08:31:05,394 INFO 3868 [egg-security] use methodnoallow middleware
+2020-04-22 08:31:05,394 INFO 3868 [egg-security] use noopen middleware
+2020-04-22 08:31:05,395 INFO 3868 [egg-security] use nosniff middleware
+2020-04-22 08:31:05,396 INFO 3868 [egg-security] use xssProtection middleware
+2020-04-22 08:31:05,396 INFO 3868 [egg-security] use xframe middleware
+2020-04-22 08:31:05,397 INFO 3868 [egg-security] use dta middleware
+2020-04-22 08:31:05,397 INFO 3868 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:31:05,406 INFO 3868 [egg:core] dump config after load, 5ms
+2020-04-22 08:31:05,413 INFO 3868 [egg-mongoose] starting...
+2020-04-22 08:31:05,455 INFO 3868 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:31:05,456 INFO 3868 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:31:05,461 INFO 3868 [egg-watcher:application] watcher start success
+2020-04-22 08:31:05,469 INFO 3868 [egg:core] dump config after ready, 6ms
+2020-04-22 08:31:06,554 INFO 748 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:31:06,588 INFO 748 [egg-multipart] stream mode enable
+2020-04-22 08:31:06,920 INFO 748 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:31:07,003 INFO 748 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:31:07,007 INFO 748 [egg-security] use csrf middleware
+2020-04-22 08:31:07,008 INFO 748 [egg-security] use methodnoallow middleware
+2020-04-22 08:31:07,009 INFO 748 [egg-security] use noopen middleware
+2020-04-22 08:31:07,010 INFO 748 [egg-security] use nosniff middleware
+2020-04-22 08:31:07,010 INFO 748 [egg-security] use xssProtection middleware
+2020-04-22 08:31:07,011 INFO 748 [egg-security] use xframe middleware
+2020-04-22 08:31:07,011 INFO 748 [egg-security] use dta middleware
+2020-04-22 08:31:07,011 INFO 748 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:31:07,020 INFO 748 [egg:core] dump config after load, 4ms
+2020-04-22 08:31:07,028 INFO 748 [egg-mongoose] starting...
+2020-04-22 08:31:07,062 INFO 748 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:31:07,062 INFO 748 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:31:07,064 INFO 748 [egg-watcher:application] watcher start success
+2020-04-22 08:31:07,071 INFO 748 [egg:core] dump config after ready, 5ms
+2020-04-22 08:32:13,290 INFO 6700 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:32:13,317 INFO 6700 [egg-multipart] stream mode enable
+2020-04-22 08:32:13,636 INFO 6700 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:32:13,719 INFO 6700 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:32:13,721 INFO 6700 [egg-security] use csrf middleware
+2020-04-22 08:32:13,723 INFO 6700 [egg-security] use methodnoallow middleware
+2020-04-22 08:32:13,723 INFO 6700 [egg-security] use noopen middleware
+2020-04-22 08:32:13,724 INFO 6700 [egg-security] use nosniff middleware
+2020-04-22 08:32:13,725 INFO 6700 [egg-security] use xssProtection middleware
+2020-04-22 08:32:13,725 INFO 6700 [egg-security] use xframe middleware
+2020-04-22 08:32:13,726 INFO 6700 [egg-security] use dta middleware
+2020-04-22 08:32:13,726 INFO 6700 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:32:13,735 INFO 6700 [egg:core] dump config after load, 5ms
+2020-04-22 08:32:13,740 INFO 6700 [egg-mongoose] starting...
+2020-04-22 08:32:13,775 INFO 6700 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:32:13,775 INFO 6700 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:32:13,777 INFO 6700 [egg-watcher:application] watcher start success
+2020-04-22 08:32:13,791 INFO 6700 [egg:core] dump config after ready, 12ms
+2020-04-22 08:34:48,218 INFO 6232 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:34:48,245 INFO 6232 [egg-multipart] stream mode enable
+2020-04-22 08:34:48,562 INFO 6232 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:34:48,639 INFO 6232 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:34:48,642 INFO 6232 [egg-security] use csrf middleware
+2020-04-22 08:34:48,643 INFO 6232 [egg-security] use methodnoallow middleware
+2020-04-22 08:34:48,643 INFO 6232 [egg-security] use noopen middleware
+2020-04-22 08:34:48,644 INFO 6232 [egg-security] use nosniff middleware
+2020-04-22 08:34:48,644 INFO 6232 [egg-security] use xssProtection middleware
+2020-04-22 08:34:48,645 INFO 6232 [egg-security] use xframe middleware
+2020-04-22 08:34:48,645 INFO 6232 [egg-security] use dta middleware
+2020-04-22 08:34:48,645 INFO 6232 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:34:48,653 INFO 6232 [egg:core] dump config after load, 4ms
+2020-04-22 08:34:48,658 INFO 6232 [egg-mongoose] starting...
+2020-04-22 08:34:48,689 INFO 6232 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:34:48,689 INFO 6232 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:34:48,691 INFO 6232 [egg-watcher:application] watcher start success
+2020-04-22 08:34:48,699 INFO 6232 [egg:core] dump config after ready, 6ms
+2020-04-22 08:35:04,381 INFO 9424 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:35:04,409 INFO 9424 [egg-multipart] stream mode enable
+2020-04-22 08:35:04,889 INFO 9424 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:35:04,979 INFO 9424 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:35:04,983 INFO 9424 [egg-security] use csrf middleware
+2020-04-22 08:35:04,984 INFO 9424 [egg-security] use methodnoallow middleware
+2020-04-22 08:35:04,984 INFO 9424 [egg-security] use noopen middleware
+2020-04-22 08:35:04,985 INFO 9424 [egg-security] use nosniff middleware
+2020-04-22 08:35:04,986 INFO 9424 [egg-security] use xssProtection middleware
+2020-04-22 08:35:04,986 INFO 9424 [egg-security] use xframe middleware
+2020-04-22 08:35:04,987 INFO 9424 [egg-security] use dta middleware
+2020-04-22 08:35:04,987 INFO 9424 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:35:04,995 INFO 9424 [egg:core] dump config after load, 4ms
+2020-04-22 08:35:05,000 INFO 9424 [egg-mongoose] starting...
+2020-04-22 08:35:05,029 INFO 9424 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:35:05,029 INFO 9424 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:35:05,034 INFO 9424 [egg-watcher:application] watcher start success
+2020-04-22 08:35:05,043 INFO 9424 [egg:core] dump config after ready, 6ms
+2020-04-22 08:36:38,590 INFO 10972 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:36:38,624 INFO 10972 [egg-multipart] stream mode enable
+2020-04-22 08:36:39,001 INFO 10972 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:36:39,101 INFO 10972 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:36:39,105 INFO 10972 [egg-security] use csrf middleware
+2020-04-22 08:36:39,107 INFO 10972 [egg-security] use methodnoallow middleware
+2020-04-22 08:36:39,107 INFO 10972 [egg-security] use noopen middleware
+2020-04-22 08:36:39,109 INFO 10972 [egg-security] use nosniff middleware
+2020-04-22 08:36:39,109 INFO 10972 [egg-security] use xssProtection middleware
+2020-04-22 08:36:39,109 INFO 10972 [egg-security] use xframe middleware
+2020-04-22 08:36:39,110 INFO 10972 [egg-security] use dta middleware
+2020-04-22 08:36:39,110 INFO 10972 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:36:39,119 INFO 10972 [egg:core] dump config after load, 4ms
+2020-04-22 08:36:39,125 INFO 10972 [egg-mongoose] starting...
+2020-04-22 08:36:39,156 INFO 10972 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:36:39,156 INFO 10972 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:36:39,158 INFO 10972 [egg-watcher:application] watcher start success
+2020-04-22 08:36:39,169 INFO 10972 [egg:core] dump config after ready, 9ms
+2020-04-22 08:38:35,347 INFO 11000 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:38:35,375 INFO 11000 [egg-multipart] stream mode enable
+2020-04-22 08:38:35,761 INFO 11000 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:38:35,845 INFO 11000 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:38:35,850 INFO 11000 [egg-security] use csrf middleware
+2020-04-22 08:38:35,851 INFO 11000 [egg-security] use methodnoallow middleware
+2020-04-22 08:38:35,852 INFO 11000 [egg-security] use noopen middleware
+2020-04-22 08:38:35,853 INFO 11000 [egg-security] use nosniff middleware
+2020-04-22 08:38:35,853 INFO 11000 [egg-security] use xssProtection middleware
+2020-04-22 08:38:35,854 INFO 11000 [egg-security] use xframe middleware
+2020-04-22 08:38:35,854 INFO 11000 [egg-security] use dta middleware
+2020-04-22 08:38:35,854 INFO 11000 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:38:35,863 INFO 11000 [egg:core] dump config after load, 4ms
+2020-04-22 08:38:35,872 INFO 11000 [egg-mongoose] starting...
+2020-04-22 08:38:35,905 INFO 11000 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:38:35,906 INFO 11000 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:38:35,908 INFO 11000 [egg-watcher:application] watcher start success
+2020-04-22 08:38:35,920 INFO 11000 [egg:core] dump config after ready, 10ms
+2020-04-22 08:38:37,361 ERROR 11000 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at UserService.userIP (D:\Codes\DIYShop-BackEnd\app\service\user.js:26:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 11000
+hostname: LittleControl
+
+2020-04-22 08:38:58,863 INFO 4048 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:38:58,890 INFO 4048 [egg-multipart] stream mode enable
+2020-04-22 08:38:59,212 INFO 4048 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:38:59,281 INFO 4048 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:38:59,283 INFO 4048 [egg-security] use csrf middleware
+2020-04-22 08:38:59,284 INFO 4048 [egg-security] use methodnoallow middleware
+2020-04-22 08:38:59,285 INFO 4048 [egg-security] use noopen middleware
+2020-04-22 08:38:59,286 INFO 4048 [egg-security] use nosniff middleware
+2020-04-22 08:38:59,286 INFO 4048 [egg-security] use xssProtection middleware
+2020-04-22 08:38:59,287 INFO 4048 [egg-security] use xframe middleware
+2020-04-22 08:38:59,287 INFO 4048 [egg-security] use dta middleware
+2020-04-22 08:38:59,287 INFO 4048 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:38:59,296 INFO 4048 [egg:core] dump config after load, 4ms
+2020-04-22 08:38:59,300 INFO 4048 [egg-mongoose] starting...
+2020-04-22 08:38:59,325 INFO 4048 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:38:59,326 INFO 4048 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:38:59,329 INFO 4048 [egg-watcher:application] watcher start success
+2020-04-22 08:38:59,337 INFO 4048 [egg:core] dump config after ready, 5ms
+2020-04-22 08:39:00,265 INFO 10688 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:39:00,294 INFO 10688 [egg-multipart] stream mode enable
+2020-04-22 08:39:00,619 INFO 10688 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:39:00,689 INFO 10688 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:39:00,692 INFO 10688 [egg-security] use csrf middleware
+2020-04-22 08:39:00,694 INFO 10688 [egg-security] use methodnoallow middleware
+2020-04-22 08:39:00,695 INFO 10688 [egg-security] use noopen middleware
+2020-04-22 08:39:00,696 INFO 10688 [egg-security] use nosniff middleware
+2020-04-22 08:39:00,696 INFO 10688 [egg-security] use xssProtection middleware
+2020-04-22 08:39:00,697 INFO 10688 [egg-security] use xframe middleware
+2020-04-22 08:39:00,697 INFO 10688 [egg-security] use dta middleware
+2020-04-22 08:39:00,697 INFO 10688 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:39:00,706 INFO 10688 [egg:core] dump config after load, 4ms
+2020-04-22 08:39:00,712 INFO 10688 [egg-mongoose] starting...
+2020-04-22 08:39:00,777 INFO 10688 [egg-watcher:application] watcher start success
+2020-04-22 08:39:00,785 INFO 10688 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:39:00,785 INFO 10688 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:39:00,794 INFO 10688 [egg:core] dump config after ready, 7ms
+2020-04-22 08:39:03,885 ERROR 10688 nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at UserService.userIP (D:\Codes\DIYShop-BackEnd\app\service\user.js:26:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 10688
+hostname: LittleControl
+
+2020-04-22 08:39:46,887 INFO 3508 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:39:46,943 INFO 3508 [egg-multipart] stream mode enable
+2020-04-22 08:39:47,308 INFO 3508 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:39:47,408 INFO 3508 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:39:47,411 INFO 3508 [egg-security] use csrf middleware
+2020-04-22 08:39:47,412 INFO 3508 [egg-security] use methodnoallow middleware
+2020-04-22 08:39:47,413 INFO 3508 [egg-security] use noopen middleware
+2020-04-22 08:39:47,414 INFO 3508 [egg-security] use nosniff middleware
+2020-04-22 08:39:47,415 INFO 3508 [egg-security] use xssProtection middleware
+2020-04-22 08:39:47,415 INFO 3508 [egg-security] use xframe middleware
+2020-04-22 08:39:47,416 INFO 3508 [egg-security] use dta middleware
+2020-04-22 08:39:47,416 INFO 3508 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:39:47,444 INFO 3508 [egg:core] dump config after load, 19ms
+2020-04-22 08:39:47,453 INFO 3508 [egg-mongoose] starting...
+2020-04-22 08:39:47,496 INFO 3508 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:39:47,497 INFO 3508 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:39:47,499 INFO 3508 [egg-watcher:application] watcher start success
+2020-04-22 08:39:47,511 INFO 3508 [egg:core] dump config after ready, 9ms
+2020-04-22 08:40:25,974 INFO 10920 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:40:26,012 INFO 10920 [egg-multipart] stream mode enable
+2020-04-22 08:40:26,526 INFO 10920 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:40:26,625 INFO 10920 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:40:26,628 INFO 10920 [egg-security] use csrf middleware
+2020-04-22 08:40:26,629 INFO 10920 [egg-security] use methodnoallow middleware
+2020-04-22 08:40:26,629 INFO 10920 [egg-security] use noopen middleware
+2020-04-22 08:40:26,630 INFO 10920 [egg-security] use nosniff middleware
+2020-04-22 08:40:26,631 INFO 10920 [egg-security] use xssProtection middleware
+2020-04-22 08:40:26,632 INFO 10920 [egg-security] use xframe middleware
+2020-04-22 08:40:26,632 INFO 10920 [egg-security] use dta middleware
+2020-04-22 08:40:26,632 INFO 10920 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:40:26,647 INFO 10920 [egg:core] dump config after load, 7ms
+2020-04-22 08:40:26,650 INFO 10920 [egg-mongoose] starting...
+2020-04-22 08:40:26,677 INFO 10920 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:40:26,677 INFO 10920 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:40:26,679 INFO 10920 [egg-watcher:application] watcher start success
+2020-04-22 08:40:26,689 INFO 10920 [egg:core] dump config after ready, 8ms
+2020-04-22 08:40:27,871 INFO 12756 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:40:27,900 INFO 12756 [egg-multipart] stream mode enable
+2020-04-22 08:40:28,448 INFO 12756 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:40:28,541 INFO 12756 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:40:28,544 INFO 12756 [egg-security] use csrf middleware
+2020-04-22 08:40:28,545 INFO 12756 [egg-security] use methodnoallow middleware
+2020-04-22 08:40:28,545 INFO 12756 [egg-security] use noopen middleware
+2020-04-22 08:40:28,547 INFO 12756 [egg-security] use nosniff middleware
+2020-04-22 08:40:28,547 INFO 12756 [egg-security] use xssProtection middleware
+2020-04-22 08:40:28,547 INFO 12756 [egg-security] use xframe middleware
+2020-04-22 08:40:28,548 INFO 12756 [egg-security] use dta middleware
+2020-04-22 08:40:28,548 INFO 12756 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:40:28,557 INFO 12756 [egg:core] dump config after load, 5ms
+2020-04-22 08:40:28,561 INFO 12756 [egg-mongoose] starting...
+2020-04-22 08:40:28,586 INFO 12756 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:40:28,586 INFO 12756 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:40:28,588 INFO 12756 [egg-watcher:application] watcher start success
+2020-04-22 08:40:28,596 INFO 12756 [egg:core] dump config after ready, 6ms
+2020-04-22 08:40:30,254 ERROR 12756 nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at UserService.userIP (D:\Codes\DIYShop-BackEnd\app\service\user.js:26:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 12756
+hostname: LittleControl
+
+2020-04-22 08:40:48,633 INFO 1036 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:40:48,667 INFO 1036 [egg-multipart] stream mode enable
+2020-04-22 08:40:49,150 INFO 1036 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:40:49,223 INFO 1036 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:40:49,226 INFO 1036 [egg-security] use csrf middleware
+2020-04-22 08:40:49,227 INFO 1036 [egg-security] use methodnoallow middleware
+2020-04-22 08:40:49,227 INFO 1036 [egg-security] use noopen middleware
+2020-04-22 08:40:49,228 INFO 1036 [egg-security] use nosniff middleware
+2020-04-22 08:40:49,229 INFO 1036 [egg-security] use xssProtection middleware
+2020-04-22 08:40:49,229 INFO 1036 [egg-security] use xframe middleware
+2020-04-22 08:40:49,230 INFO 1036 [egg-security] use dta middleware
+2020-04-22 08:40:49,230 INFO 1036 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:40:49,240 INFO 1036 [egg:core] dump config after load, 5ms
+2020-04-22 08:40:49,244 INFO 1036 [egg-mongoose] starting...
+2020-04-22 08:40:49,274 INFO 1036 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:40:49,274 INFO 1036 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:40:49,276 INFO 1036 [egg-watcher:application] watcher start success
+2020-04-22 08:40:49,289 INFO 1036 [egg:core] dump config after ready, 11ms
+2020-04-22 08:41:43,618 INFO 9404 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:41:43,648 INFO 9404 [egg-multipart] stream mode enable
+2020-04-22 08:41:44,084 INFO 9404 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:41:44,160 INFO 9404 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:41:44,164 INFO 9404 [egg-security] use csrf middleware
+2020-04-22 08:41:44,165 INFO 9404 [egg-security] use methodnoallow middleware
+2020-04-22 08:41:44,166 INFO 9404 [egg-security] use noopen middleware
+2020-04-22 08:41:44,168 INFO 9404 [egg-security] use nosniff middleware
+2020-04-22 08:41:44,168 INFO 9404 [egg-security] use xssProtection middleware
+2020-04-22 08:41:44,169 INFO 9404 [egg-security] use xframe middleware
+2020-04-22 08:41:44,169 INFO 9404 [egg-security] use dta middleware
+2020-04-22 08:41:44,170 INFO 9404 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:41:44,179 INFO 9404 [egg:core] dump config after load, 4ms
+2020-04-22 08:41:44,184 INFO 9404 [egg-mongoose] starting...
+2020-04-22 08:41:44,212 INFO 9404 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:41:44,213 INFO 9404 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:41:44,215 INFO 9404 [egg-watcher:application] watcher start success
+2020-04-22 08:41:44,226 INFO 9404 [egg:core] dump config after ready, 6ms
+2020-04-22 08:42:40,261 INFO 7024 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:42:40,306 INFO 7024 [egg-multipart] stream mode enable
+2020-04-22 08:42:40,898 INFO 7024 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:42:41,000 INFO 7024 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:42:41,010 INFO 7024 [egg-security] use csrf middleware
+2020-04-22 08:42:41,012 INFO 7024 [egg-security] use methodnoallow middleware
+2020-04-22 08:42:41,012 INFO 7024 [egg-security] use noopen middleware
+2020-04-22 08:42:41,013 INFO 7024 [egg-security] use nosniff middleware
+2020-04-22 08:42:41,014 INFO 7024 [egg-security] use xssProtection middleware
+2020-04-22 08:42:41,015 INFO 7024 [egg-security] use xframe middleware
+2020-04-22 08:42:41,015 INFO 7024 [egg-security] use dta middleware
+2020-04-22 08:42:41,015 INFO 7024 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:42:41,029 INFO 7024 [egg:core] dump config after load, 8ms
+2020-04-22 08:42:41,038 INFO 7024 [egg-mongoose] starting...
+2020-04-22 08:42:41,078 INFO 7024 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:42:41,079 INFO 7024 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:42:41,080 INFO 7024 [egg-watcher:application] watcher start success
+2020-04-22 08:42:41,093 INFO 7024 [egg:core] dump config after ready, 11ms
+2020-04-22 08:42:51,045 INFO 9880 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:42:51,072 INFO 9880 [egg-multipart] stream mode enable
+2020-04-22 08:42:51,365 INFO 9880 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:42:51,445 INFO 9880 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:42:51,449 INFO 9880 [egg-security] use csrf middleware
+2020-04-22 08:42:51,450 INFO 9880 [egg-security] use methodnoallow middleware
+2020-04-22 08:42:51,450 INFO 9880 [egg-security] use noopen middleware
+2020-04-22 08:42:51,451 INFO 9880 [egg-security] use nosniff middleware
+2020-04-22 08:42:51,452 INFO 9880 [egg-security] use xssProtection middleware
+2020-04-22 08:42:51,452 INFO 9880 [egg-security] use xframe middleware
+2020-04-22 08:42:51,452 INFO 9880 [egg-security] use dta middleware
+2020-04-22 08:42:51,453 INFO 9880 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:42:51,461 INFO 9880 [egg:core] dump config after load, 4ms
+2020-04-22 08:42:51,465 INFO 9880 [egg-mongoose] starting...
+2020-04-22 08:42:51,492 INFO 9880 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:42:51,492 INFO 9880 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:42:51,495 INFO 9880 [egg-watcher:application] watcher start success
+2020-04-22 08:42:51,504 INFO 9880 [egg:core] dump config after ready, 5ms
+2020-04-22 08:42:52,542 INFO 6132 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:42:52,573 INFO 6132 [egg-multipart] stream mode enable
+2020-04-22 08:42:52,964 INFO 6132 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:42:53,118 INFO 6132 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:42:53,168 INFO 6132 [egg-security] use csrf middleware
+2020-04-22 08:42:53,170 INFO 6132 [egg-security] use methodnoallow middleware
+2020-04-22 08:42:53,171 INFO 6132 [egg-security] use noopen middleware
+2020-04-22 08:42:53,173 INFO 6132 [egg-security] use nosniff middleware
+2020-04-22 08:42:53,178 INFO 6132 [egg-security] use xssProtection middleware
+2020-04-22 08:42:53,180 INFO 6132 [egg-security] use xframe middleware
+2020-04-22 08:42:53,182 INFO 6132 [egg-security] use dta middleware
+2020-04-22 08:42:53,182 INFO 6132 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:42:53,216 INFO 6132 [egg:core] dump config after load, 20ms
+2020-04-22 08:42:53,236 INFO 6132 [egg-mongoose] starting...
+2020-04-22 08:42:53,296 INFO 6132 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:42:53,296 INFO 6132 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:42:53,299 INFO 6132 [egg-watcher:application] watcher start success
+2020-04-22 08:42:53,328 INFO 6132 [egg:core] dump config after ready, 26ms
+2020-04-22 08:43:46,059 INFO 7852 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:43:46,086 INFO 7852 [egg-multipart] stream mode enable
+2020-04-22 08:43:46,387 INFO 7852 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:43:46,474 INFO 7852 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:43:46,477 INFO 7852 [egg-security] use csrf middleware
+2020-04-22 08:43:46,478 INFO 7852 [egg-security] use methodnoallow middleware
+2020-04-22 08:43:46,479 INFO 7852 [egg-security] use noopen middleware
+2020-04-22 08:43:46,480 INFO 7852 [egg-security] use nosniff middleware
+2020-04-22 08:43:46,480 INFO 7852 [egg-security] use xssProtection middleware
+2020-04-22 08:43:46,481 INFO 7852 [egg-security] use xframe middleware
+2020-04-22 08:43:46,481 INFO 7852 [egg-security] use dta middleware
+2020-04-22 08:43:46,481 INFO 7852 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:43:46,489 INFO 7852 [egg:core] dump config after load, 4ms
+2020-04-22 08:43:46,494 INFO 7852 [egg-mongoose] starting...
+2020-04-22 08:43:46,522 INFO 7852 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:43:46,523 INFO 7852 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:43:46,525 INFO 7852 [egg-watcher:application] watcher start success
+2020-04-22 08:43:46,533 INFO 7852 [egg:core] dump config after ready, 6ms
+2020-04-22 08:43:52,419 INFO 4236 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:43:52,456 INFO 4236 [egg-multipart] stream mode enable
+2020-04-22 08:43:52,904 INFO 4236 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:43:52,996 INFO 4236 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:43:52,999 INFO 4236 [egg-security] use csrf middleware
+2020-04-22 08:43:53,000 INFO 4236 [egg-security] use methodnoallow middleware
+2020-04-22 08:43:53,000 INFO 4236 [egg-security] use noopen middleware
+2020-04-22 08:43:53,001 INFO 4236 [egg-security] use nosniff middleware
+2020-04-22 08:43:53,002 INFO 4236 [egg-security] use xssProtection middleware
+2020-04-22 08:43:53,002 INFO 4236 [egg-security] use xframe middleware
+2020-04-22 08:43:53,003 INFO 4236 [egg-security] use dta middleware
+2020-04-22 08:43:53,003 INFO 4236 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:43:53,012 INFO 4236 [egg:core] dump config after load, 4ms
+2020-04-22 08:43:53,016 INFO 4236 [egg-mongoose] starting...
+2020-04-22 08:43:53,042 INFO 4236 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:43:53,043 INFO 4236 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:43:53,045 INFO 4236 [egg-watcher:application] watcher start success
+2020-04-22 08:43:53,052 INFO 4236 [egg:core] dump config after ready, 6ms
+2020-04-22 08:43:54,296 INFO 13160 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:43:54,332 INFO 13160 [egg-multipart] stream mode enable
+2020-04-22 08:43:54,677 INFO 13160 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:43:54,758 INFO 13160 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:43:54,761 INFO 13160 [egg-security] use csrf middleware
+2020-04-22 08:43:54,762 INFO 13160 [egg-security] use methodnoallow middleware
+2020-04-22 08:43:54,763 INFO 13160 [egg-security] use noopen middleware
+2020-04-22 08:43:54,764 INFO 13160 [egg-security] use nosniff middleware
+2020-04-22 08:43:54,764 INFO 13160 [egg-security] use xssProtection middleware
+2020-04-22 08:43:54,765 INFO 13160 [egg-security] use xframe middleware
+2020-04-22 08:43:54,765 INFO 13160 [egg-security] use dta middleware
+2020-04-22 08:43:54,765 INFO 13160 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:43:54,774 INFO 13160 [egg:core] dump config after load, 4ms
+2020-04-22 08:43:54,780 INFO 13160 [egg-mongoose] starting...
+2020-04-22 08:43:54,809 INFO 13160 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:43:54,809 INFO 13160 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:43:54,811 INFO 13160 [egg-watcher:application] watcher start success
+2020-04-22 08:43:54,819 INFO 13160 [egg:core] dump config after ready, 6ms
+2020-04-22 08:44:41,097 INFO 3508 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:44:41,125 INFO 3508 [egg-multipart] stream mode enable
+2020-04-22 08:44:41,492 INFO 3508 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:44:41,688 INFO 3508 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:44:41,690 INFO 3508 [egg-security] use csrf middleware
+2020-04-22 08:44:41,692 INFO 3508 [egg-security] use methodnoallow middleware
+2020-04-22 08:44:41,693 INFO 3508 [egg-security] use noopen middleware
+2020-04-22 08:44:41,696 INFO 3508 [egg-security] use nosniff middleware
+2020-04-22 08:44:41,700 INFO 3508 [egg-security] use xssProtection middleware
+2020-04-22 08:44:41,701 INFO 3508 [egg-security] use xframe middleware
+2020-04-22 08:44:41,703 INFO 3508 [egg-security] use dta middleware
+2020-04-22 08:44:41,703 INFO 3508 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:44:41,720 INFO 3508 [egg:core] dump config after load, 10ms
+2020-04-22 08:44:41,726 INFO 3508 [egg-mongoose] starting...
+2020-04-22 08:44:41,768 INFO 3508 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:44:41,768 INFO 3508 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:44:41,770 INFO 3508 [egg-watcher:application] watcher start success
+2020-04-22 08:44:41,783 INFO 3508 [egg:core] dump config after ready, 10ms
+2020-04-22 08:45:13,830 INFO 12412 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:45:13,857 INFO 12412 [egg-multipart] stream mode enable
+2020-04-22 08:45:14,342 INFO 12412 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:45:14,435 INFO 12412 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:45:14,439 INFO 12412 [egg-security] use csrf middleware
+2020-04-22 08:45:14,440 INFO 12412 [egg-security] use methodnoallow middleware
+2020-04-22 08:45:14,440 INFO 12412 [egg-security] use noopen middleware
+2020-04-22 08:45:14,442 INFO 12412 [egg-security] use nosniff middleware
+2020-04-22 08:45:14,443 INFO 12412 [egg-security] use xssProtection middleware
+2020-04-22 08:45:14,443 INFO 12412 [egg-security] use xframe middleware
+2020-04-22 08:45:14,444 INFO 12412 [egg-security] use dta middleware
+2020-04-22 08:45:14,444 INFO 12412 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:45:14,453 INFO 12412 [egg:core] dump config after load, 4ms
+2020-04-22 08:45:14,458 INFO 12412 [egg-mongoose] starting...
+2020-04-22 08:45:14,492 INFO 12412 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:45:14,492 INFO 12412 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:45:14,494 INFO 12412 [egg-watcher:application] watcher start success
+2020-04-22 08:45:14,501 INFO 12412 [egg:core] dump config after ready, 5ms
+2020-04-22 08:45:38,120 INFO 13296 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:45:38,148 INFO 13296 [egg-multipart] stream mode enable
+2020-04-22 08:45:38,490 INFO 13296 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:45:38,560 INFO 13296 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:45:38,562 INFO 13296 [egg-security] use csrf middleware
+2020-04-22 08:45:38,563 INFO 13296 [egg-security] use methodnoallow middleware
+2020-04-22 08:45:38,564 INFO 13296 [egg-security] use noopen middleware
+2020-04-22 08:45:38,565 INFO 13296 [egg-security] use nosniff middleware
+2020-04-22 08:45:38,565 INFO 13296 [egg-security] use xssProtection middleware
+2020-04-22 08:45:38,566 INFO 13296 [egg-security] use xframe middleware
+2020-04-22 08:45:38,566 INFO 13296 [egg-security] use dta middleware
+2020-04-22 08:45:38,566 INFO 13296 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:45:38,575 INFO 13296 [egg:core] dump config after load, 4ms
+2020-04-22 08:45:38,581 INFO 13296 [egg-mongoose] starting...
+2020-04-22 08:45:38,604 INFO 13296 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:45:38,605 INFO 13296 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:45:38,612 INFO 13296 [egg-watcher:application] watcher start success
+2020-04-22 08:45:38,622 INFO 13296 [egg:core] dump config after ready, 7ms
+2020-04-22 08:45:39,521 INFO 8792 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:45:39,550 INFO 8792 [egg-multipart] stream mode enable
+2020-04-22 08:45:39,840 INFO 8792 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:45:39,912 INFO 8792 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:45:39,915 INFO 8792 [egg-security] use csrf middleware
+2020-04-22 08:45:39,916 INFO 8792 [egg-security] use methodnoallow middleware
+2020-04-22 08:45:39,917 INFO 8792 [egg-security] use noopen middleware
+2020-04-22 08:45:39,918 INFO 8792 [egg-security] use nosniff middleware
+2020-04-22 08:45:39,918 INFO 8792 [egg-security] use xssProtection middleware
+2020-04-22 08:45:39,919 INFO 8792 [egg-security] use xframe middleware
+2020-04-22 08:45:39,919 INFO 8792 [egg-security] use dta middleware
+2020-04-22 08:45:39,919 INFO 8792 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:45:39,935 INFO 8792 [egg:core] dump config after load, 7ms
+2020-04-22 08:45:39,941 INFO 8792 [egg-mongoose] starting...
+2020-04-22 08:45:39,971 INFO 8792 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:45:39,972 INFO 8792 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:45:39,974 INFO 8792 [egg-watcher:application] watcher start success
+2020-04-22 08:45:39,982 INFO 8792 [egg:core] dump config after ready, 6ms
+2020-04-22 08:46:05,420 INFO 7392 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:46:05,460 INFO 7392 [egg-multipart] stream mode enable
+2020-04-22 08:46:05,813 INFO 7392 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:46:05,894 INFO 7392 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:46:05,897 INFO 7392 [egg-security] use csrf middleware
+2020-04-22 08:46:05,898 INFO 7392 [egg-security] use methodnoallow middleware
+2020-04-22 08:46:05,898 INFO 7392 [egg-security] use noopen middleware
+2020-04-22 08:46:05,899 INFO 7392 [egg-security] use nosniff middleware
+2020-04-22 08:46:05,900 INFO 7392 [egg-security] use xssProtection middleware
+2020-04-22 08:46:05,901 INFO 7392 [egg-security] use xframe middleware
+2020-04-22 08:46:05,901 INFO 7392 [egg-security] use dta middleware
+2020-04-22 08:46:05,901 INFO 7392 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:46:05,910 INFO 7392 [egg:core] dump config after load, 5ms
+2020-04-22 08:46:05,914 INFO 7392 [egg-mongoose] starting...
+2020-04-22 08:46:05,946 INFO 7392 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:46:05,947 INFO 7392 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:46:05,949 INFO 7392 [egg-watcher:application] watcher start success
+2020-04-22 08:46:05,957 INFO 7392 [egg:core] dump config after ready, 6ms
+2020-04-22 08:48:07,408 INFO 3740 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 08:48:07,446 INFO 3740 [egg-multipart] stream mode enable
+2020-04-22 08:48:07,739 INFO 3740 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 08:48:07,807 INFO 3740 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 08:48:07,810 INFO 3740 [egg-security] use csrf middleware
+2020-04-22 08:48:07,811 INFO 3740 [egg-security] use methodnoallow middleware
+2020-04-22 08:48:07,812 INFO 3740 [egg-security] use noopen middleware
+2020-04-22 08:48:07,813 INFO 3740 [egg-security] use nosniff middleware
+2020-04-22 08:48:07,813 INFO 3740 [egg-security] use xssProtection middleware
+2020-04-22 08:48:07,814 INFO 3740 [egg-security] use xframe middleware
+2020-04-22 08:48:07,814 INFO 3740 [egg-security] use dta middleware
+2020-04-22 08:48:07,814 INFO 3740 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 08:48:07,823 INFO 3740 [egg:core] dump config after load, 4ms
+2020-04-22 08:48:07,827 INFO 3740 [egg-mongoose] starting...
+2020-04-22 08:48:07,850 INFO 3740 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 08:48:07,850 INFO 3740 [egg-mongoose] instance[0] start successfully
+2020-04-22 08:48:07,853 INFO 3740 [egg-watcher:application] watcher start success
+2020-04-22 08:48:07,860 INFO 3740 [egg:core] dump config after ready, 5ms
+2020-04-22 15:11:15,100 INFO 11424 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 15:11:15,129 INFO 11424 [egg-multipart] stream mode enable
+2020-04-22 15:11:17,891 INFO 11424 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 15:11:18,226 INFO 11424 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 15:11:18,236 INFO 11424 [egg-security] use csrf middleware
+2020-04-22 15:11:18,238 INFO 11424 [egg-security] use methodnoallow middleware
+2020-04-22 15:11:18,239 INFO 11424 [egg-security] use noopen middleware
+2020-04-22 15:11:18,240 INFO 11424 [egg-security] use nosniff middleware
+2020-04-22 15:11:18,241 INFO 11424 [egg-security] use xssProtection middleware
+2020-04-22 15:11:18,241 INFO 11424 [egg-security] use xframe middleware
+2020-04-22 15:11:18,242 INFO 11424 [egg-security] use dta middleware
+2020-04-22 15:11:18,242 INFO 11424 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 15:11:18,251 INFO 11424 [egg:core] dump config after load, 4ms
+2020-04-22 15:11:18,256 INFO 11424 [egg-mongoose] starting...
+2020-04-22 15:11:18,290 INFO 11424 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 15:11:18,290 INFO 11424 [egg-mongoose] instance[0] start successfully
+2020-04-22 15:11:18,292 INFO 11424 [egg-watcher:application] watcher start success
+2020-04-22 15:11:18,300 INFO 11424 [egg:core] dump config after ready, 5ms
+2020-04-22 15:11:19,004 INFO 5928 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 15:11:19,033 INFO 5928 [egg-multipart] stream mode enable
+2020-04-22 15:11:19,359 INFO 5928 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 15:11:19,431 INFO 5928 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 15:11:19,434 INFO 5928 [egg-security] use csrf middleware
+2020-04-22 15:11:19,435 INFO 5928 [egg-security] use methodnoallow middleware
+2020-04-22 15:11:19,436 INFO 5928 [egg-security] use noopen middleware
+2020-04-22 15:11:19,437 INFO 5928 [egg-security] use nosniff middleware
+2020-04-22 15:11:19,438 INFO 5928 [egg-security] use xssProtection middleware
+2020-04-22 15:11:19,438 INFO 5928 [egg-security] use xframe middleware
+2020-04-22 15:11:19,439 INFO 5928 [egg-security] use dta middleware
+2020-04-22 15:11:19,439 INFO 5928 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 15:11:19,448 INFO 5928 [egg:core] dump config after load, 5ms
+2020-04-22 15:11:19,455 INFO 5928 [egg-mongoose] starting...
+2020-04-22 15:11:19,504 INFO 5928 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 15:11:19,505 INFO 5928 [egg-mongoose] instance[0] start successfully
+2020-04-22 15:11:19,507 INFO 5928 [egg-watcher:application] watcher start success
+2020-04-22 15:11:19,516 INFO 5928 [egg:core] dump config after ready, 6ms
+2020-04-22 15:11:20,404 INFO 10148 [egg:logger] init all loggers with options: {"dir":"D:\\Codes\\DIYShop-BackEnd\\logs\\diyshop-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"diyshop-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-22 15:11:20,431 INFO 10148 [egg-multipart] stream mode enable
+2020-04-22 15:11:20,708 INFO 10148 [egg-mongoose] connecting mongodb://127.0.0.1/diyshop
+2020-04-22 15:11:20,771 INFO 10148 [egg-static] starting static serve /public/ -> D:\Codes\DIYShop-BackEnd\app\public
+2020-04-22 15:11:20,778 INFO 10148 [egg-security] use csrf middleware
+2020-04-22 15:11:20,780 INFO 10148 [egg-security] use methodnoallow middleware
+2020-04-22 15:11:20,781 INFO 10148 [egg-security] use noopen middleware
+2020-04-22 15:11:20,782 INFO 10148 [egg-security] use nosniff middleware
+2020-04-22 15:11:20,783 INFO 10148 [egg-security] use xssProtection middleware
+2020-04-22 15:11:20,784 INFO 10148 [egg-security] use xframe middleware
+2020-04-22 15:11:20,784 INFO 10148 [egg-security] use dta middleware
+2020-04-22 15:11:20,784 INFO 10148 [egg-security] compose 7 middlewares into one security middleware
+2020-04-22 15:11:20,796 INFO 10148 [egg:core] dump config after load, 5ms
+2020-04-22 15:11:20,802 INFO 10148 [egg-mongoose] starting...
+2020-04-22 15:11:20,827 INFO 10148 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 15:11:20,828 INFO 10148 [egg-mongoose] instance[0] start successfully
+2020-04-22 15:11:20,829 INFO 10148 [egg-watcher:application] watcher start success
+2020-04-22 15:11:20,836 INFO 10148 [egg:core] dump config after ready, 5ms
+2020-04-22 15:49:01,049 ERROR 10148 [egg-mongoose] mongodb://127.0.0.1/diyshop disconnected
+2020-04-22 15:49:31,324 INFO 10148 [egg-mongoose] mongodb://127.0.0.1/diyshop connected successfully
+2020-04-22 15:49:31,324 INFO 10148 [egg-mongoose] mongodb://127.0.0.1/diyshop reconnected successfully
