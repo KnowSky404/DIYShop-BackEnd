@@ -315,3 +315,14 @@ pid: 12756
 hostname: LittleControl
 
 2020-04-22 15:49:01,033 ERROR 10148 [egg-mongoose] mongodb://127.0.0.1/diyshop disconnected
+2020-04-22 16:25:41,191 ERROR 10712 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\Codes\\DIYShop-BackEnd\\app\\middleware"
+name: "EPERMError"
+pid: 10712
+hostname: LittleControl
+
