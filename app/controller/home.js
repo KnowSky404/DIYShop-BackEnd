@@ -4,8 +4,9 @@ class HomeController extends Controller {
     async index() {
         this.ctx.body = 'Hello world'
     }
-    banner() {
-        this.ctx.body = this.service.home.getBanner()
+    async banners() {
+        // let banners = this.service.home.getBanners()
+        this.ctx.body = await this.service.home.getBanners()
     }
 }
 
