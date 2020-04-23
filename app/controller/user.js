@@ -3,8 +3,8 @@
 const Controller = require('egg').Controller;
 
 class UserController extends Controller {
-    async echo() {
-        this.ctx.body = "Nothing To Do"
+    index() {
+        this.ctx.body = "Hello, user"
     }
     async info() {
         const name = this.ctx.params.name

@@ -4,13 +4,8 @@ const Service = require('egg').Service
 
 class UserService extends Service {
     async userInfo(name) {
-        const mongoose = this.app.mongoose
-        const Schema = mongoose.Schema
-        const UserSchema = new Schema({
-            name: { type: String },
-            password: { type: String },
-        })
-        let res = await mongoose.model('user', UserSchema).find({ name })
+        let user = this.app.userModel
+        let res = await user.find({ name })
         return res
     }
     async userIP() {

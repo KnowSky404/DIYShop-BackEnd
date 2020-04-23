@@ -3,22 +3,14 @@
 const Service = require('egg').Service;
 
 class HomeService extends Service {
-    async index() {
-        console.log('Hello Egg')
+    index() {
+        return 'Hello, Home'
     }
     async getBanners() {
-        let banners = this.app.getBanners()
-        await banners.find(
-            { id: { $exists: true } },
-            (err, docs) => {
-                if (err) {
-                    console.log(err)
-                } else {
-                    console.log(docs)
-                    return docs
-                }
-            }
-        )
+        let banners = this.app.bannerModel
+        let res = await banners.find()
+        //这里返回的一个数组对象
+        return res
     }
 }
 

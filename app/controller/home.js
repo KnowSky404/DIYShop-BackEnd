@@ -2,10 +2,9 @@ const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
     async index() {
-        this.ctx.body = 'Hello world'
+        this.ctx.body = await this.service.home.index()
     }
     async banners() {
-        // let banners = this.service.home.getBanners()
         this.ctx.body = await this.service.home.getBanners()
     }
 }
