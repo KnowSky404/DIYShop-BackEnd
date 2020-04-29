@@ -6,5 +6,5 @@ module.exports = app => {
     // router.get('/user/info', controller.user.info)
     router.get('/ip', controller.user.ip)
     router.get('/banners', controller.home.banners)
-    router.get('/shoplists', controller.shoplist.shoplists)
+    router.get('/shoplist', controller.shoplist.shoplists)
 }

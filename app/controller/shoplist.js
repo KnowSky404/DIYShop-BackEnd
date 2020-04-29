@@ -7,7 +7,7 @@ class ShoplistController extends Controller {
         this.ctx.body = this.service.shoplist.echo()
     }
     async shoplists() {
-        this.ctx.body = await this.service.shoplist.getShopLists()
+        this.ctx.body = await this.service.shoplist.getShopList()
     }
 }
 

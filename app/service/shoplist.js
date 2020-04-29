@@ -6,7 +6,7 @@ class ShoplistService extends Service {
     async echo() {
         return 'This is shoplist'
     }
-    async getShopLists() {
+    async getShopList() {
         let shopList = this.app.shopListModel
         let res = await shopList.find()
         return res
