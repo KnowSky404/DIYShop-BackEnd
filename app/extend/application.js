@@ -2,8 +2,6 @@ const BANNERMODEL = Symbol('Application#banner')
 const USERMODEL = Symbol('Application#user')
 const SHOPLISTMODEL = Symbol('Applicaton#shoplist')
 
-
-
 module.exports = {
     get bannerModel() {
         if (!this[BANNERMODEL]) {
@@ -23,6 +21,7 @@ module.exports = {
             const Schema = mongoose.Schema
             const UserSchema = new Schema({
                 name: String,
+                email: String,
                 password: String,
             })
             this[USERMODEL] = mongoose.model('user', UserSchema)
@@ -38,6 +37,7 @@ module.exports = {
                 name: String,
                 rating: Number,
                 medal: Boolean,
+                count: Number,
                 support: {
                     quickShip: Boolean,
                     noReason: Boolean,
