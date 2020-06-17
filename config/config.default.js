@@ -10,9 +10,7 @@ exports.mongoose = {
 }
 exports.security = {
     csrf: {
-        queryName: '_csrf',
-        bodyName: '_csrf',
-        headerName: '_csrf'
+        enable: false
     },
     domainWhiteList: ['http://localhost:8080']
 }

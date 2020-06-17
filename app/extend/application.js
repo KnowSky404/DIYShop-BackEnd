@@ -23,6 +23,7 @@ module.exports = {
                 name: String,
                 email: String,
                 password: String,
+                tel: String
             })
             this[USERMODEL] = mongoose.model('user', UserSchema)
         }

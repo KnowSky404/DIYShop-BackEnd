@@ -16,8 +16,10 @@ class UserController extends Controller {
         this.ctx.body = userInfo
     }
     async userInfo() {
-        const { ctx, service } = this;
-        console.log(ctx.request.body)
+        const { ctx } = this;
+        const { email, password } = ctx.request.body
+        let res = await ctx.service.user.userInfo(email, password)
+        ctx.body = res
     }
 }
 

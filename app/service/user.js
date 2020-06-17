@@ -14,14 +14,9 @@ class UserService extends Service {
         })
         return JSON.parse(res.data).result
     }
-    async userInfo(name) {
+    async userInfo(email, password) {
         let user = this.app.userModel
-        let res = await user.find({ name })
-        return res
-    }
-    async getUser(email) {
-        let user = this.app.userModel
-        let res = await user.find({ email })
+        let res = await user.find({ email, password })
         return res
     }
 }
