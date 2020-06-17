@@ -16,7 +16,13 @@ class UserService extends Service {
     }
     async userInfo(email, password) {
         let user = this.app.userModel
-        let res = await user.find({ email, password })
+        let res = await user.findOne({ email, password }, (err, data) => {
+            if (err) {
+                console.log('Database Error!')
+                return { msg: 'Database Error!' }
+            }
+            return data
+        })
         return res
     }
 }
