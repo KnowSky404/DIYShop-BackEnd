@@ -4,5 +4,6 @@ module.exports = app => {
     router.get('/ip', controller.user.ip)
     router.get('/banners', controller.home.banners)
     router.get('/shoplist', controller.shoplist.shoplists)
-    router.post('/user', controller.user.userInfo)
+    router.post('/user', controller.user.info)
+    router.post('/signup', controller.user.signup)
 }
