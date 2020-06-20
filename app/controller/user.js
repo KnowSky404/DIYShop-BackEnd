@@ -26,12 +26,13 @@ class UserController extends Controller {
     }
     async signup() {
         const { ctx, service } = this
-        const (email, password, name, bio) = ctx.request, body
+        const { email, password, name, bio } = ctx.request.body
         let res = await service.user.signup(email, password, name, bio)
-        if (!res.msg) {
+        console.log(res)
+        if (res.resCode === 200) {
             ctx.body = {
                 resCode: 200,
-                msg: res
+                msg: res.msg
             }
         } else {
             ctx.body = {

@@ -26,14 +26,24 @@ class UserService extends Service {
     }
     async signup(email, password, name, bio) {
         const user = this.app.userModel
-        let res = await user.findOneAndUpdate({ email, password, name, bio }, { upsert: true }, (err, data) => {
-            if (err) {
-                return {
-                    msg: 'Database Error!'
+        const query = { email, password, name, bio }
+        let res = null
+        await user.findOneAndUpdate(query, query, { upsert: true },
+            (err, data) => {
+                if (err) {
+                    res = {
+                        resCode: 500,
+                        msg: 'DatabaseError!'
+                    }
+                } else {
+                    res = {
+                        // data,
+                        msg: 'Okay',
+                        resCode: 200
+                    }
                 }
             }
-            return 'OKay!'
-        })
+        )
         return res
     }
 }
