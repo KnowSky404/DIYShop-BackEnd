@@ -16,34 +16,51 @@ class UserService extends Service {
     }
     async info(email, password) {
         const user = this.app.userModel
-        let res = await user.findOne({ email, password }, (err, data) => {
+        let res
+        await user.findOne({ email, password }, (err, data) => {
             if (err) {
-                return { msg: 'Database Error!' }
+                return res = {
+                    resCode: 510,
+                    msg: 'Database Error!'
+                }
             }
-            return data
+            return res = {
+                resCode: 200,
+                msg: 'Okay',
+                userInfo: data
+            }
         })
+        console.log(res)
         return res
     }
     async signup(email, password, name, bio) {
         const user = this.app.userModel
-        const query = { email, password, name, bio }
         let res = null
-        await user.findOneAndUpdate(query, query, { upsert: true },
-            (err, data) => {
-                if (err) {
+        await user.exists({ email })
+            .then((resolve) => {
+                if (resolve) {
                     res = {
-                        resCode: 500,
-                        msg: 'DatabaseError!'
+                        resCode: 511,
+                        msg: '实例对象重复!'
+                    }
+                    return Promise.reject('实例对象重复')
+                } else {
+                    return new user({ email, password, name, bio }).save()
+                }
+            })
+            .then((resolve) => {
+                if (resolve) {
+                    res = {
+                        resCode: 200,
+                        msg: 'Signup Succeed!'
                     }
                 } else {
                     res = {
-                        // data,
-                        msg: 'Okay',
-                        resCode: 200
+                        resCode: 510,
+                        msg: 'Database Error!'
                     }
                 }
-            }
-        )
+            })
         return res
     }
 }
