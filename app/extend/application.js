@@ -1,6 +1,7 @@
 const BANNERMODEL = Symbol('Application#banner')
 const USERMODEL = Symbol('Application#user')
-const SHOPLISTMODEL = Symbol('Applicaton#shoplist')
+const SHOPLISTMODEL = Symbol('Application#shoplist')
+const SHOPINFOMODEL = Symbol('Application#shopinfo')
 
 module.exports = {
     get bannerModel() {
@@ -48,5 +49,18 @@ module.exports = {
             this[SHOPLISTMODEL] = mongoose.model('shoplist', ShopListSchema)
         }
         return this[SHOPLISTMODEL]
+    },
+    get shopInfoModel() {
+        if (!this[SHOPINFOMODEL]) {
+            const mongoose = this.mongoose
+            const Schema = mongoose.Schema
+            const ShopInfoSchema = new Schema({
+                info: Object,
+                goods: [Object],
+                rating: [Object]
+            })
+            this[SHOPINFOMODEL] = mongoose.model('shopinfo', ShopInfoSchema)
+        }
+        return this[SHOPINFOMODEL]
     }
 }

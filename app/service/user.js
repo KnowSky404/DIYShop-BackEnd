@@ -30,7 +30,6 @@ class UserService extends Service {
                 userInfo: data
             }
         })
-        console.log(res)
         return res
     }
     async signup(email, password, name, bio) {
