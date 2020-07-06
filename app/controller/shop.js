@@ -13,7 +13,7 @@ class ShoplistController extends Controller {
     async shopinfo() {
         const { ctx, service } = this
         const { id } = ctx.request.body
-        if (id.length !== 24) {
+        if (!id || id.length !== 24) {
             ctx.body = {}
         } else {
             ctx.body = await service.shop.postShopInfo(id)
