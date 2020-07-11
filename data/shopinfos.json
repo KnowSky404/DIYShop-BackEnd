@@ -1,0 +1,1761 @@
+[
+	{
+		"_id": {
+			"$oid": "5ea92650e7763d18ac4271f3"
+		},
+		"info": {
+			"name": "心情妙妙屋",
+			"description": "Geek速运",
+			"deliveryTime": 28,
+			"score": 4.2,
+			"serviceScore": 4.1,
+			"foodScore": 4.3,
+			"rankRate": 69.2,
+			"minPrice": 20,
+			"deliveryPrice": 4,
+			"ratingCount": 24,
+			"sellCount": 90,
+			"distance": "1000m",
+			"bulletin": "如果你见到有人没有笑，那你就给他们一个微笑",
+			"supports": [
+				{
+					"type": 0,
+					"name": "首单",
+					"content": "新用户下单立减17元(不与其它活动同享)"
+				},
+				{
+					"type": 1,
+					"name": "满减",
+					"content": "满35减19，满65减35"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减19.5元】心花怒放"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减29元】欢天喜地"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减16.5元】垂头丧气"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减15】百感交集"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减11.95】悲痛欲绝"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减19.8】我恋爱了呀"
+				}
+			],
+			"avatar": "https://s1.ax1x.com/2020/04/29/JTRf3Q.jpg",
+			"bgImg": "https://s1.ax1x.com/2020/07/01/NTz4df.jpg",
+			"pics": [
+				"https://s1.ax1x.com/2020/07/01/NTzRsI.jpg",
+				"https://s1.ax1x.com/2020/07/01/NTzWLt.jpg",
+				"https://s1.ax1x.com/2020/07/01/NTz2QA.png",
+				"https://s1.ax1x.com/2020/07/01/NTzczd.png",
+				"https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+			],
+			"category": "心情, 生活",
+			"phone": "17777777777",
+			"address": "火星帝都商业大厦二楼777室",
+			"workTime": "23:59:59-24:00:00"
+		},
+		"goods": [
+			{
+				"name": "折扣",
+				"icon": "https://s1.ax1x.com/2020/07/06/UCSFjs.png",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "优惠",
+				"icon": "https://s1.ax1x.com/2020/07/06/UCSAun.png",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "为你推荐",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "好的好的",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "美好心情",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "精品套餐",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			}
+		],
+		"ratings": [
+			{
+				"username": "3******c",
+				"rateTime": 1469281964000,
+				"deliveryTime": 30,
+				"score": 5,
+				"rateType": 0,
+				"text": "不错,出售的心情很好,强烈推荐老八蜜汁小憨包.",
+				"avatar": "https://s1.ax1x.com/2020/07/01/N7CHA0.jpg",
+				"recommend": [
+					"欢天喜地",
+					"心花怒放",
+					"老八蜜汁小憨包"
+				]
+			},
+			{
+				"username": "3******c",
+				"rateTime": 1469281964000,
+				"deliveryTime": 30,
+				"score": 4.3,
+				"rateType": 0,
+				"text": "不错,出售的心情很好,强烈推荐老八蜜汁小憨包.",
+				"avatar": "https://s1.ax1x.com/2020/07/01/N7CHA0.jpg",
+				"recommend": [
+					"欢天喜地",
+					"心花怒放",
+					"老八蜜汁小憨包"
+				]
+			},
+			{
+				"username": "3******c",
+				"rateTime": 1469281964000,
+				"deliveryTime": 30,
+				"score": 3,
+				"rateType": 0,
+				"text": "",
+				"avatar": "https://s1.ax1x.com/2020/07/01/N7CHA0.jpg",
+				"recommend": [
+					"欢天喜地",
+					"心花怒放",
+					"老八蜜汁小憨包"
+				]
+			}
+		]
+	},
+	{
+		"_id": {
+			"$oid": "5ecaf2da0eb3b3e533542b6d"
+		},
+		"info": {
+			"name": "小天气会所",
+			"description": "Geek速运",
+			"deliveryTime": 28,
+			"score": 4.2,
+			"serviceScore": 4.1,
+			"foodScore": 4.3,
+			"rankRate": 69.2,
+			"minPrice": 20,
+			"deliveryPrice": 4,
+			"ratingCount": 24,
+			"sellCount": 90,
+			"distance": "1000m",
+			"bulletin": "今天的风儿甚是喧嚣呀",
+			"supports": [
+				{
+					"type": 0,
+					"name": "首单",
+					"content": "新用户下单立减17元(不与其它活动同享)"
+				},
+				{
+					"type": 1,
+					"name": "满减",
+					"content": "满35减19，满65减35"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减19.5元】晴天霹雳"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减29元】五类轰顶"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减16.5元】垂头丧气"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减15】百感交集"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减11.95】悲痛欲绝"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减19.8】我恋爱了呀"
+				}
+			],
+			"avatar": "https://s1.ax1x.com/2020/05/25/tpQcCt.jpg",
+			"bgImg": "https://s1.ax1x.com/2020/05/25/tpQcCt.jpg",
+			"pics": [
+				"https://s1.ax1x.com/2020/07/01/NTzRsI.jpg",
+				"https://s1.ax1x.com/2020/07/01/NTzWLt.jpg",
+				"https://s1.ax1x.com/2020/07/01/NTz2QA.png",
+				"https://s1.ax1x.com/2020/07/01/NTzczd.png",
+				"https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+			],
+			"category": "天气,生活",
+			"phone": "17777777778",
+			"address": "火星帝都商业大厦二楼778室",
+			"workTime": "24:59:59-25:00:00"
+		},
+		"goods": [
+			{
+				"name": "折扣",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "精选套餐",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "为你推荐",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "好的好的",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "美好心情",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			}
+		],
+		"ratings": [
+			{
+				"username": "3******c",
+				"rateTime": 1469281964000,
+				"deliveryTime": 30,
+				"score": 5,
+				"rateType": 0,
+				"text": "不错,出售的心情很好,强烈推荐老八蜜汁小憨包.",
+				"avatar": "https://s1.ax1x.com/2020/07/01/N7CHA0.jpg",
+				"recommend": [
+					"欢天喜地",
+					"心花怒放",
+					"老八蜜汁小憨包"
+				]
+			},
+			{
+				"username": "3******c",
+				"rateTime": 1469281964000,
+				"deliveryTime": 30,
+				"score": 5,
+				"rateType": 0,
+				"text": "不错,出售的心情很好,强烈推荐老八蜜汁小憨包.",
+				"avatar": "https://s1.ax1x.com/2020/07/01/N7CHA0.jpg",
+				"recommend": [
+					"欢天喜地",
+					"心花怒放",
+					"老八蜜汁小憨包"
+				]
+			},
+			{
+				"username": "3******c",
+				"rateTime": 1469281964000,
+				"deliveryTime": 30,
+				"score": 5,
+				"rateType": 0,
+				"text": "不错,出售的心情很好,强烈推荐老八蜜汁小憨包.",
+				"avatar": "https://s1.ax1x.com/2020/07/01/N7CHA0.jpg",
+				"recommend": [
+					"欢天喜地",
+					"心花怒放",
+					"老八蜜汁小憨包"
+				]
+			}
+		]
+	},
+	{
+		"_id": {
+			"$oid": "5ecaf6ab0eb3b3e533542b6e"
+		},
+		"info": {
+			"name": "解忧杂货店",
+			"description": "Geek速运",
+			"deliveryTime": 28,
+			"score": 4.2,
+			"serviceScore": 4.1,
+			"foodScore": 4.3,
+			"rankRate": 69.2,
+			"minPrice": 20,
+			"deliveryPrice": 4,
+			"ratingCount": 24,
+			"sellCount": 90,
+			"distance": "1000m",
+			"bulletin": "上解忧杂货店,解决你的一切烦恼",
+			"supports": [
+				{
+					"type": 0,
+					"name": "首单",
+					"content": "新用户下单立减17元(不与其它活动同享)"
+				},
+				{
+					"type": 1,
+					"name": "满减",
+					"content": "满35减19，满65减35"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减19.5元】心花怒放"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减29元】欢天喜地"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减16.5元】垂头丧气"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减15】百感交集"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减11.95】悲痛欲绝"
+				},
+				{
+					"type": 2,
+					"name": "特价",
+					"content": "【立减19.8】我恋爱了呀"
+				}
+			],
+			"avatar": "https://s1.ax1x.com/2020/05/25/tpQg8P.jpg",
+			"bgImg": "https://s1.ax1x.com/2020/05/25/tpQg8P.jpg",
+			"pics": [
+				"https://s1.ax1x.com/2020/07/01/NTzRsI.jpg",
+				"https://s1.ax1x.com/2020/07/01/NTzWLt.jpg",
+				"https://s1.ax1x.com/2020/07/01/NTz2QA.png",
+				"https://s1.ax1x.com/2020/07/01/NTzczd.png",
+				"https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+			],
+			"category": "心情, 生活",
+			"phone": "17777777777",
+			"address": "火星帝都商业大厦二楼777室",
+			"workTime": "23:59:59-24:00:00"
+		},
+		"goods": [
+			{
+				"name": "折扣",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"count": 0,
+						"name": "我恋爱了呀",
+						"price": 20,
+						"oldPrice": "18",
+						"description": "Nothing To Do But Love",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "Cool, You are the best!",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"count": 0,
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"count": 0,
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "精选套餐",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"name": "我恋爱了呀",
+						"price|10-20": 20,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "为你推荐",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"name": "我恋爱了呀",
+						"price|10-20": 20,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "好的好的",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"name": "我恋爱了呀",
+						"price|10-20": 20,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			},
+			{
+				"name": "美好心情",
+				"icon": "https://s1.ax1x.com/2020/07/01/N7CIns.png",
+				"foods": [
+					{
+						"name": "我恋爱了呀",
+						"price|10-20": 20,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 43,
+						"rating": 92,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "Nothing",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzczd.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/NTzRsI.jpg"
+					},
+					{
+						"name": "那没事了",
+						"price": 16,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 29,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7CIns.png"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg"
+					},
+					{
+						"name": "老八秘制小憨包",
+						"price": 11,
+						"oldPrice": "",
+						"description": "",
+						"sellCount": 15,
+						"rating": 100,
+						"info": "",
+						"ratings": [
+							{
+								"username": "3******c",
+								"rateTime": 1469281964000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/N7iPqs.jpg"
+							},
+							{
+								"username": "2******3",
+								"rateTime": 1469271264000,
+								"rateType": 0,
+								"text": "",
+								"avatar": "https://s1.ax1x.com/2020/07/01/NTzheP.jpg"
+							}
+						],
+						"icon": "https://s1.ax1x.com/2020/07/01/N7iFZn.jpg",
+						"image": "https://s1.ax1x.com/2020/07/01/N7ikaq.png"
+					}
+				]
+			}
+		],
+		"ratings": [
+			{
+				"username": "3******c",
+				"rateTime": 1469281964000,
+				"deliveryTime": 30,
+				"score": 5,
+				"rateType": 0,
+				"text": "不错,出售的心情很好,强烈推荐老八蜜汁小憨包.",
+				"avatar": "https://s1.ax1x.com/2020/07/01/N7CHA0.jpg",
+				"recommend": [
+					"欢天喜地",
+					"心花怒放",
+					"老八蜜汁小憨包"
+				]
+			}
+		]
+	}
+]
