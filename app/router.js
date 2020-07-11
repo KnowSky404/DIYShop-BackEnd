@@ -7,4 +7,5 @@ module.exports = app => {
     router.post('/user', controller.user.info)
     router.post('/signup', controller.user.signup)
     router.post('/shopinfo', controller.shop.shopinfo)
+    router.get('/search', controller.search.shops)
 }
