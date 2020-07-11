@@ -11,6 +11,11 @@ exports.mongoose = {
 exports.security = {
     csrf: {
         enable: false
-    },
-    domainWhiteList: ['http://localhost:8080']
+    }
+}
+
+exports.cors = {
+    credentials: true,
+    origin: '*',
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
 }
